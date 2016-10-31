@@ -1,11 +1,6 @@
 (function(){
 	APS = {
-		'storedData': {
-			'branch': null,
-			'values': {
-
-			}
-		},
+		'storedData': {},
 		addListeners: function () {
 			// Listen for initilization
 			$('.aps-init').click(function(){
@@ -17,10 +12,7 @@
 					APS.createStorage();
 					// Chage to the first slide
 					APS.changeSlide($(this).data('aps-goto'));
-				}
-				// store the BRANCH, then store values based off of it {branch: aca, values: [b,c,a]}
-				// if branch is changed/set, delete all data. essentially a reset
-				
+				}				
 			});
 
 			// Add listeners to all option buttons
@@ -29,15 +21,50 @@
 					if ($(this).data('aps-branch')) {
 						// store the value in APS.storedData then update local storage
 						APS.storedData['branch'] = $(this).data('aps-branch');
-						APS.updateStorage();
-					} else if ($(this).closest('.slide').data('aps-slide').length) {
-						// store the vlaue in APS.storedData then update local storage
-						//APS.storedData.values[$(this).closest('.slide').data('aps-slide')] = $(this).data('aps-value');
-						console.log('this is a slide data');
-						APS.storedData.values[0] = 'a';
-						APS.updateStorage();
+						APS.storedData['values'] = {};
+					} else if ($(this).closest('.slide').data('aps-slide') && $(this).closest('.slide').data('aps-slide').length) {
+						if ($(this).hasClass('required')) {
+							var slide = $(this).closest('.slide').attr('id'),
+							    empty = false;
+
+							$('#' + slide + ' .error').remove();
+
+							$('.slide#' + slide + ' :input').each(function(){
+								if ($(this).val().length < 1) {
+									$(this).after($('<span/>',{
+										'class': 'error required-error inline',
+										'text': '* Required'
+									}));
+									empty = true;
+								}
+							});
+							if (empty) {
+								$(this).before($('<div/>',{
+									'class': 'error required-error-wrap',
+									'html': $('<span/>',{
+										'class': 'required-error',
+										'text': 'Please fill out the required fields marked above.'
+									})
+								}));
+								$('.required-error.inline').each(function(){
+									$(this).animate({'font-size':'19px'}, 250, function(){
+										$(this).animate({'font-size':'17px'}, 250)
+									});
+								});
+								$(this).blur();
+								return false;
+							}
+						}
+						slide = $(this).closest('.slide');
+						// if this is collecting data, it needs to be stored before changing slides.
+						// Otherwise, store the value in APS.storeddata
+						if (slide.data('aps-input') && slide.data('aps-input') == true) {
+							APS.processForm($(this).closest('.aps-form'));
+						}
+
+						APS.storedData.values[slide.data('aps-slide')] = $(this).data('aps-value');
+
 					}
-					console.log($(this).closest('.slide').data('aps-slide'));
 					APS.changeSlide($(this).data('aps-goto'));
 				});
 			});
@@ -45,29 +72,81 @@
 			// Restart the process
 			$('.aps-restart').each(function(){
 				$(this).on('click', function(){
-					if ($(this).data('aps-restart') == 'yes') {
-						if (window.confirm("Are you sure you want to start over?")) { 
-							APS.createStorage();
-							APS.changeSlide('aps-1');
-						} 
-					} else {
-						alert('no code here yet');
+					$('.recap').hide();
+					$('.slide .error').remove();
+					if ($(this).data('aps-restart') == 'yes') {						
+						APS.createStorage();
+						APS.changeSlide('aps-1');
+					} else if ($(this).data('aps-restart') == 'no') {
+						APS.retrieveStorage();
+						APS.changeSlide(APS.storedData.currentSlide);
 					}
 				});
+			});
+
+			// Popup with WA CIO R/S calculator
+			$('.cio-assessment').each(function(){
+				$(this).click(function(event){
+					event.preventDefault();
+					window.open('https://ocio.wa.gov/risk-severity-calculator#main-content','cio','width=900,height=750,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');
+					return false;
+				});
+			});
+
+			$('#back-to-start').on('click', function(){
+				APS.changeSlide('aps-0');
+			});
+
+			$('#back-one-slide').on('click', function(){
+				APS.changeSlide(APS.storedData['lastSlide']);
+				$('#back-one-slide').hide();
 			});
 		},
 		changeSlide: function(slide) {
 			$('.aps .slide').each(function(){
 				$(this).fadeOut(400);
 			});
-			$('#' + slide).fadeIn(400);
 			
+			// Update the change in slide in storage / localstorage (if not restart or splash)
+			if (slide != 'aps-restart' && slide != 'aps-0') {
+				if (APS.storedData['currentSlide']) {
+					APS.storedData['lastSlide'] = APS.storedData['currentSlide'];
+					$('#back-one-slide').show();
+				}
+				APS.storedData['currentSlide'] = slide;
+				APS.updateStorage();
+			}	
+			if (slide == 'recap') {
+				this.showRecap();
+			}
+
+			//resize if necessary
+			if (($('#' + slide).height() + 40) >= $('#aps').height()) {
+				$('#aps').animate({'height': ($('#' + slide).height()) + 40 + 'px'});
+			}
+
+			$('#' + slide).fadeIn(400);
 		},
 		createStorage: function() {
+			APS.storedData = {
+				'branch': null,
+				'values': {
+	
+				}
+			}
 			// Stores data in local storage if possible
 			if (this.storageAvailable('localStorage')) {
 				localStorage.setItem("APS",JSON.stringify(APS.storedData));
 			} 
+		},
+		processForm: function(data) {
+			var formname = data.attr('id');
+			var formdata = data.serializeArray();
+			APS.storedData.values[formname] = {};
+			// loop through the array, grab each object
+			for (i = 0; i < formdata.length; i++) {
+				APS.storedData.values[formname][formdata[i].name] = formdata[i].value;
+			}
 		},
 		updateStorage: function() {
 			// Writes info storedin APS.storedData to localStorage as a string
@@ -81,7 +160,20 @@
 				APS.storedData = JSON.parse(localStorage.getItem('APS')); 
 			}
 		},
-		storageAvailable: function (type) {
+		showRecap: function() {
+			branch = APS.storedData.branch;
+			switch (branch) {
+			  case 'aca':
+			    this.recaps.aca();
+			    break;
+			  case 'non':
+			    this.recaps.non();
+			    break;
+			  default:
+			    console.log("Something went wrong...");
+			}
+		},
+		storageAvailable: function(type) {
 			try {
 				var storage = window[type],
 					x = '__storage_test__';
@@ -98,6 +190,82 @@
 			    return true;
 			}
 			return false;
+		},
+		recaps: {
+			aca: function() {
+				var level = APS.storedData.values.level,
+					highcost = APS.storedData.values.highcost,
+					multi = APS.storedData.values.multi;
+
+				// Level 1
+				if (level == '1') {
+					if (highcost == false && multi == false) {
+						$('#aca-1').show();
+					} else if (highcost == false && multi == true) {
+						$('#aca-2').show();
+					} else if (highcost == true && multi == false) {
+						$('#aca-3').show();
+					} else if (highcost == true && multi == true) {
+						$('#aca-4').show();
+					}
+				// Level 2
+				} else if (level == '2' || level == '3') {
+					// Set level, initial investment, system life
+					$('#recap-level').text(level);
+					$('#recap-investment').text(APS.storedData.values['form-cost']['initial_investment']);
+					$('#recap-5yr').text(APS.storedData.values['form-cost']['system_life']);
+
+					if (APS.storedData.values.multi == 'none') {
+						$('#recap-multi').text('No other departments will use this system or service, and central compuring resources or services are not required.');
+					} else {
+						$('#recap-multi').text(APS.storedData.values['form-multi']['description']);
+					}
+
+					$('#recap-duration').text(APS.storedData.values['form-duration']['duration']);
+
+					$('#aca-5').show();
+				}
+			},
+			non: function() {
+				var level = APS.storedData.values.level,
+					highcost = APS.storedData.values.highcost,
+					multi = APS.storedData.values.multi,
+					large = false;
+
+				// Level 1
+				if (level == '1') {
+					if (APS.storedData.values['highcost'] == true) {
+						$('#recap-highcost').show();
+						large = true;
+					} else {
+						$('#recap-lowcost').show();
+					}
+
+					if (APS.storedData.values.multi == 'none') {
+						$('#recap-multi-non').text('No other departments will use this system or service.');
+					} else {
+						$('#recap-multi-non').text(APS.storedData.values['form-multi']['description']);
+						large = true;
+					}
+
+					if (APS.storedData.values.central == 'none') {
+						$('#recap-central-non').text('No central compuring resources or services are not required.');
+					} else {
+						$('#recap-central-non').text(APS.storedData.values['form-central']['description']);
+						large = true;
+					}
+
+					$('#recap-duration-non').text(APS.storedData.values['form-duration']['duration']);
+
+					if (large) {
+						$('#recap-non-long').show();
+						$('#recap-non-short').hide();
+					} 
+
+					$('#non-1').show();
+				// Level 2
+				}
+			}
 		},
 		init: function() {
 			// Add listeners to all slide options
