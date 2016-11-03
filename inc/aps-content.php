@@ -121,11 +121,10 @@
 
 	<div class="slide academic" id="aps-aca-f" data-aps-slide="multi" data-aps-input="true">
 		<form class="aps-form" id="form-multi" >
-			<h3>Does your project or acquisition reach beyond your own department?</h3>
+			
+			<h3>Will more than one department be affected by your project or acquisition?</h3>
 
-			<p>Will more than one department be affected by your project or acquisition, or do you need to use any central administrative computing services or resources?</p>
-
-			<p>If your project your project or acquisition will affect multiple departments or use central IT resources, please provide details in the box below for either or both. Otherwise, click "Doesn't Apply".</p>
+			<p>If your project your project or acquisition will affect multiple departments, please provide details in the box below. Otherwise, click "Doesn't Apply".</p>
 
 			<div class="field">
 				<textarea name="description" id="description" rows="7" cols="80" style="font-size: 0.9em;"></textarea>
@@ -135,7 +134,21 @@
 		</form>
 	</div><!-- Slide aca f -->
 
-	<div class="slide academic" id="aps-aca-g" data-aps-slide="duration" data-aps-input="true">
+	<div class="slide academic" id="aps-aca-g" data-aps-slide="central" data-aps-input="true">
+		<form class="aps-form" id="form-central" >
+			<h3>Does your project or acquisition require central administrative computing services or resources?</h3>
+
+			<p>If your project your project or acquisition requires use of central IT resources, please provide details in the box below. Otherwise, click "Doesn't Apply".</p>
+
+			<div class="field">
+				<textarea name="description" id="description" rows="7" cols="80" style="font-size: 0.9em;"></textarea>
+			</div>
+			
+			<a class="uw-btn aps-option required" data-aps-goto="aps-aca-h" href="javascript:void(0);">Submit</a><a class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-aca-h" href="javascript:void(0);">Doesn't apply</a>
+		</form>
+	</div><!-- Slide aca g -->
+
+	<div class="slide academic" id="aps-aca-h" data-aps-slide="duration" data-aps-input="true">
 		<form class="aps-form" id="form-duration" >
 			<h3>How long will your project or acquisition take?</h3>
 
@@ -152,7 +165,7 @@
 			<br />
 			<a class="uw-btn aps-option" data-aps-goto="recap" href="javascript:void(0);">Submit</a>
 		</form>
-	</div><!-- Slide aca g -->
+	</div><!-- Slide aca h -->
 
 	<!-- END ACADEMIC SLIDES **************************************************************************** -->
 	<!-- MEDICAL SLIDES ********************************************************************************* -->
@@ -343,7 +356,9 @@
 
 				<li><b>Five-year system life cost:</b> $<span id="recap-5yr"></span></li>
 
-				<li>The project will affect multiple departments or require central admin resources in the following way:<div id="recap-multi"></div></li>
+				<li>The project will affect multiple departments in the following way:<div id="recap-multi"></div></li>
+
+				<li>The project require central computing resources in the following way:<div id="recap-central"></div></li>
 
 				<li>It will take <b><span id="recap-duration"></span> months</b> to complete.</li>
 			</ul>

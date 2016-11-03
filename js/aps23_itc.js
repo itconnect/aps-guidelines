@@ -216,9 +216,15 @@
 					$('#recap-5yr').text(APS.storedData.values['form-cost']['system_life']);
 
 					if (APS.storedData.values.multi == 'none') {
-						$('#recap-multi').text('No other departments will use this system or service, and central compuring resources or services are not required.');
+						$('#recap-multi').text('No other departments will use this system or service.');
 					} else {
 						$('#recap-multi').text(APS.storedData.values['form-multi']['description']);
+					}
+
+					if (APS.storedData.values.central == 'none') {
+						$('#recap-central').text('Use of central computing resources or services is not required.');
+					} else {
+						$('#recap-central').text(APS.storedData.values['form-central']['description']);
 					}
 
 					$('#recap-duration').text(APS.storedData.values['form-duration']['duration']);
