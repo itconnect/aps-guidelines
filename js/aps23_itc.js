@@ -233,13 +233,13 @@
 				}
 			},
 			non: function() {
-				var level = APS.storedData.values.level,
-					highcost = APS.storedData.values.highcost,
-					multi = APS.storedData.values.multi,
-					large = false;
+				var level = APS.storedData.values.level;
 
 				// Level 1
 				if (level == '1') {
+					var	highcost = APS.storedData.values.highcost,
+						multi = APS.storedData.values.multi,
+						large = false;
 					if (APS.storedData.values['highcost'] == true) {
 						$('#recap-highcost').show();
 						large = true;
@@ -270,6 +270,30 @@
 
 					$('#non-1').show();
 				// Level 2
+				} else if (level == '2' || level == '3') {
+					$('#recap-level-non').text(level);
+					
+					$('#recap-investment-non').text(APS.storedData.values['form-cost']['initial_investment']);
+					$('#recap-5yr-non').text(APS.storedData.values['form-cost']['system_life']);
+
+
+					if (APS.storedData.values.multi == 'none') {
+						$('#recap-multi-non-complex').text('No other departments will use this system or service.');
+					} else {
+						$('#recap-multi-non-complex').text('The project will affect multiple departments in the following way: ' + APS.storedData.values['form-multi']['description']);
+						large = true;
+					}
+
+					if (APS.storedData.values.central == 'none') {
+						$('#recap-central-non-complex').text('No central compuring resources or services are not required.');
+					} else {
+						$('#recap-central-non-complex').text('The project require central computing resources in the following way: ' + APS.storedData.values['form-central']['description']);
+						large = true;
+					}
+
+					$('#recap-duration-non-complex').text(APS.storedData.values['form-duration']['duration']);
+
+					$('#non-2').show();
 				}
 			}
 		},

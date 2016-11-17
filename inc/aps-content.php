@@ -198,7 +198,7 @@
 		</div></div>
 		<!-- End popover -->
 
-		<a class="uw-btn aps-option" data-aps-value="1" data-aps-goto="aps-non-b" href="javascript:void(0);">Level 1</a><a class="uw-btn aps-option" data-aps-value="2" data-aps-goto="aps-non-xxx" href="javascript:void(0);">Level 2</a><a class="uw-btn aps-option" data-aps-value="3" data-aps-goto="aps-non-xxx" href="javascript:void(0);">Level 3</a>
+		<a class="uw-btn aps-option" data-aps-value="1" data-aps-goto="aps-non-b" href="javascript:void(0);">Level 1</a><a class="uw-btn aps-option" data-aps-value="2" data-aps-goto="aps-non-c" href="javascript:void(0);">Level 2</a><a class="uw-btn aps-option" data-aps-value="3" data-aps-goto="aps-non-c" href="javascript:void(0);">Level 3</a>
 	</div><!-- Slide non a -->
 
 	<div class="slide non" id="aps-non-b" data-aps-slide="highcost">
@@ -209,11 +209,35 @@
 
 		<p>You can use the <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">initial investment</a> and <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">system life cost</a> worksheets to estimate the cost of your project or acquisition. 
 		
-		<a class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-non-c" href="javascript:void(0);">Yes</a><a class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-non-c" href="javascript:void(0);">No</a>
+		<a class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-non-d" href="javascript:void(0);">Yes</a><a class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-non-d" href="javascript:void(0);">No</a>
 		
 	</div><!-- Slide non b -->
 
-	<div class="slide non" id="aps-non-c" data-aps-slide="multi" data-aps-input="true">
+	<div class="slide non" id="aps-non-c" data-aps-slide="cost" data-aps-input="true">
+		
+		<form class="aps-form" id="form-cost" >
+			<h3>Provide some financial information about your project or acquisition:</h3>
+			<p>The financial information provided will help determine your required level of oversight. Use the linked worksheets if you are unsure of the costs.</p>
+			<p>What is the estimated initial investment of your project or acquisition? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">Initial investment worksheet</a><br />
+			<div class="field">
+				<label for="initial_investment">Initial Investment:</label>
+				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="initial_investment" id="initial_investment" required>
+			</div>
+			</p>
+			<p>What is the estimated 5-year system life cost of your project or acquisition? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">System life cost worksheet</a><br />
+			<div class="field">
+				<label for="system_life">System life cost:</label>
+				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="system_life" id="system_life" required="required" />
+			</div>
+			</p>
+			<div class="field">
+				<a class="uw-btn aps-option required" data-aps-goto="aps-non-d" href="javascript:void(0);">Submit</a>
+			</div>
+		</form>
+
+	</div><!-- Slide aca c -->
+
+	<div class="slide non" id="aps-non-d" data-aps-slide="multi" data-aps-input="true">
 
 		<form class="aps-form" id="form-multi" >
 			<h3>Will more than one department be affected by your project or acquisition?</h3>
@@ -226,12 +250,12 @@
 				<textarea name="description" id="description" rows="7" cols="80" style="font-size: 0.9em;"></textarea>
 			</div>
 			
-			<a class="uw-btn aps-option required" data-aps-goto="aps-non-d" href="javascript:void(0);">Submit</a><a class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-non-d" href="javascript:void(0);">Doesn't apply</a>
+			<a class="uw-btn aps-option required" data-aps-goto="aps-non-e" href="javascript:void(0);">Submit</a><a class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-non-e" href="javascript:void(0);">Doesn't apply</a>
 		</form>
 		
-	</div><!-- Slide non c -->
+	</div><!-- Slide non d -->
 
-	<div class="slide non" id="aps-non-d" data-aps-slide="central" data-aps-input="true">
+	<div class="slide non" id="aps-non-e" data-aps-slide="central" data-aps-input="true">
 
 		<form class="aps-form" id="form-central" >
 			<h3>Will your project or acquisition use central administrative computing services or resources?</h3>
@@ -244,12 +268,12 @@
 				<textarea name="description" id="description" rows="7" cols="80" style="font-size: 0.9em;"></textarea>
 			</div>
 			
-			<a class="uw-btn aps-option required" data-aps-goto="aps-non-e" href="javascript:void(0);">Submit</a><a class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-non-e" href="javascript:void(0);">Doesn't apply</a>
+			<a class="uw-btn aps-option required" data-aps-goto="aps-non-f" href="javascript:void(0);">Submit</a><a class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-non-f" href="javascript:void(0);">Doesn't apply</a>
 		</form>
 		
-	</div><!-- Slide non d -->
+	</div><!-- Slide non e -->
 
-	<div class="slide non" id="aps-non-e" data-aps-slide="duration" data-aps-input="true">
+	<div class="slide non" id="aps-non-f" data-aps-slide="duration" data-aps-input="true">
 		<form class="aps-form" id="form-duration" >
 			<h3>How long will your project or acquisition take?</h3>
 
@@ -266,7 +290,7 @@
 			<br />
 			<a class="uw-btn aps-option" data-aps-goto="recap" href="javascript:void(0);">Submit</a>
 		</form>
-	</div><!-- Slide non d-->
+	</div><!-- Slide non f-->
 
 	<!-- END NON-EXEMPT SLIDES ***************************************************************************-->
 	<!-- RECAP SLIDES ************************************************************************************ -->
@@ -442,6 +466,59 @@
 
 				<p>Any significant changes in approved project budget, scope or schedule will require you to reassess the oversight level and project costs to resubmit for review and approval by UW-IT.</p>
 			</div>
+		</div>
+
+		<div class="recap" id="non-2">
+			<h3>Here is a summary of your planned technology acquisition:</h3>
+
+			<p>State of Washington law and policies of the State Chief Information Officer require certain reviews and approvals before any action can proceed, even when no state appropriations are to be used to fund the project.</p>
+			 
+			<p>As a general rule, we will work with you through three stages of reviews and approvals. Please review the steps outlined below, prepare preliminary materials as indicated, then contact UW-IT to schedule a meeting to review the overall process and plan next steps.</p>
+			 
+			<h4>Stage 1 – Getting started and first steps</h4>
+			 
+			<ul>
+				<li>It is for administrative or business related IT systems and applications, and is not part of UW Medicine</li>
+				<li>Investment cost is <b>$<span id="recap-investment-non"></span></b> and five-year costs are <b>$<span id="recap-5yr-non"></span></b></li>
+				<li><span id="recap-multi-non-complex"></span></li>
+				<li><span id="recap-central-non-complex"></span></li>
+				<li>It has a <b>Level <span id="recap-level-non"></span> oversight</b> as calculated using risk and severity tools on State of Washington OCIO website</li>
+				<li>It will take <b><span id="recap-duration-non-complex"></span> months</b> to complete.</li>
+			</ul>
+			 
+			<p>Please draft a Concept Briefing Document, which is appendix B on the <a href="https://ocio.wa.gov/policies/121-it-investments-approval-and-oversight/121-procedures" target="_blank">OCIO IT Investments - Approval and Oversight website</a>.</p>
+			 
+			<p>Submit the draft Concept Briefing Document, a copy of your oversight level calculation report, and a copy of this Stage 1 summary information to UW-IT.</p>
+
+			<p>UW-IT will contact you to set up a time to meet and discuss next steps.   When we have all required materials assembled and approved by VP UW-IT and CIO, we will proceed to work with State OCIO for approval to move forward.  <b>NOTE:</b> No acquisitions may begin until we have state approval.</p>
+			 
+			<p>UW IT Strategy Board will be informed of the proposed project, and may request a presentation.</p>
+			 
+
+			<h4>Stage 2 – Approval to proceed with acquisition</h4>
+			 
+			<p>After OCIO approves the Concept and related materials and gives an OK to proceed with acquisition steps, your department will work with Procurement for appropriate process (RFI, RFP, sole source).</p>
+			 
+			<p>This is also the time to determine acquisition method for external Quality Assurance consulting services; note that OCIO requests to be involved in that selection process, and encourages that project QA consultants conduct both readiness assessment and planning activities prior to selection of successful vendor and award of contracts.</p>
+			 
+			<p>Draft an Investment Plan document based in large part on the Concept Briefing document&mdash;some sections will be blank (budget and schedule) until vendor proposals are received and an apparent successful vendor is identified.</p>
+			 
+			<p>OCIO approval is required before UW may award contracts for the project.</p>
+			 
+			 
+			<h4>Stage 3 – Approval to launch project</h4>
+			 
+			<p>Complete evaluation and selection of apparent successful vendor(s).</p>
+			 
+			<p>Draft the complete Investment Plan document, with additional details (budget, schedule, risks and mitigation) as identified through procurement process. This must be approved by VP UW-IT and CIO, who will request formal approval from state OCIO.</p>
+			 
+			<p>Depending on the size of the contracts and project investment costs, UW Board of Regents approval may also be required.</p>
+			 
+			<p>Develop a Project Plan and governance process for approval by VP UW-IT and CIO</p>
+			 
+			<p>UW IT Strategy Board will be updated and overall project.</p>
+			 
+			<p>Begin regular project reporting, including posting to OCIO website of monthly progress report and QA report.</p>
 		</div>
 
 	</div><!-- Slide RECAP -->
