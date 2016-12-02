@@ -171,9 +171,9 @@
 	<!-- MEDICAL SLIDES ********************************************************************************* -->
 
 	<div class="slide medical" id="aps-med-a">
-		<h3>Your project or acquisition is subject to a memorandum of understanding with the VP for UW-IT and CIO.</h3>
-		<p>Project requirements for this type cannot be determined using this application.</p>
-		<p>Please reach out to <a href="#">UW Medicine IT Services</a> to initiate the process.</a></p>
+		<h3>Requirements for this type of project cannot be determined using this application.</h3>
+		<p>Your project or acquisition is subject to a memorandum of understanding with the VP for UW-IT and CIO.</p>
+		<p>Please reach out to UW Medicine IT Services at <a href="mailto:projreq@uw.edu">projreq@uw.edu</a> to initiate the process.</a></p>
 	</div><!-- Slide aca 1 -->
 
 	<!-- END MEDICAL SLIDES ***************************************************************************** -->
