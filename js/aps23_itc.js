@@ -296,6 +296,7 @@
 					$('#non-2').show();
 				}
 			}
+		},
 		init: function() {
 			// Add listeners to all slide options
 			this.addListeners();
