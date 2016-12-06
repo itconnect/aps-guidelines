@@ -26,7 +26,7 @@
 		<div class="hidden"><div id="more-aca" class="more-info">The following acquisitions and IT system projects are examples that <u>do not qualify</u> for an Academic Exemption: administrative, business, financial, billing, payroll, personnel, budget, student record, student billing, inventory, scheduling, document imaging or management, project management, facilities management, customer relationship management, point of sale.</div></div></p>
 		<!-- End popover -->
 
-		<p>Medical projects or acquisitions are for UW Medicine IT Services or for use within one of the UW medical centers or clinics, and are limited to medical, clinical, or health care applications under management of UW Medicine. <a class="aps-moreinfo" data-featherlight="#more-med" href="#">More information</a></p>
+		<p>Medical projects or acquisitions are for UW Medicine IT Services or for use within one of the UW medical centers or clinics, and are limited to medical, clinical, or health care applications under management of UW Medicine.</p>
 
 		<!-- Popover lightbox content -->
 		<div class="hidden"><div id="more-med" class="more-info">More information blurb for Medically exempt projects or acquisitions...</div></div>
@@ -76,11 +76,11 @@
 	</div><!-- Slide aca b -->
 
 	<div class="slide academic" id="aps-aca-c" data-aps-slide="highcost">
-		<h3>Does your project or acquisition have a high initial investment or system life cost?</h3>
+		<h3>Does your project or acquisition have a high project cost or ongoing operatoins cost?</h3>
 
-		<p>Projects or acquisitions with an <i>initial investment</i> of <b>$1 million or more</b>, or with an estimated <i>five-year system life cost</i> of <b>$2.5 million or more</b>, are considered to have a high cost.</p>
+		<p>Projects or acquisitions with an <i>project cost</i> of <b>$1 million or more</b>, or with an estimated <i>five-year ongoing operatoins cost</i> of <b>$2.5 million or more</b>, are considered to have a high cost.</p>
 
-		<p>You can use the <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">initial investment</a> and <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">system life cost</a> worksheets to estimate the cost of your project or acquisition. 
+		<p>You can use the <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">project cost</a> and <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">ongoing operatoins cost</a> worksheets to estimate the cost of your project or acquisition. 
 		
 		<a class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-aca-d" href="javascript:void(0);">Yes</a><a class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-aca-d" href="javascript:void(0);">No</a>
 
@@ -100,15 +100,15 @@
 		<form class="aps-form" id="form-cost" >
 			<h3>Provide some financial information about your project or acquisition:</h3>
 			<p>The financial information provided will help determine your required level of oversight. Use the linked worksheets if you are unsure of the costs.</p>
-			<p>What is the estimated initial investment of your project or acquisition? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">Initial investment worksheet</a><br />
+			<p>What is the estimated project cost of your project or acquisition? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">project cost worksheet</a><br />
 			<div class="field">
-				<label for="initial_investment">Initial Investment:</label>
+				<label for="initial_investment">project cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="initial_investment" id="initial_investment" required>
 			</div>
 			</p>
-			<p>What is the estimated five-year system life cost of your project or acquisition? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">System life cost worksheet</a><br />
+			<p>What is the estimated five-year ongoing operatoins cost of your project or acquisition? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">ongoing operatoins cost worksheet</a><br />
 			<div class="field">
-				<label for="system_life">System life cost:</label>
+				<label for="system_life">ongoing operatoins cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="system_life" id="system_life" required="required" />
 			</div>
 			</p>
@@ -203,11 +203,11 @@
 
 	<div class="slide non" id="aps-non-b" data-aps-slide="highcost">
 
-		<h3>Does your project or acquisition have a high initial investment or system life cost?</h3>
+		<h3>Does your project or acquisition have a high project cost or ongoing operatoins cost?</h3>
 
-		<p>Projects or acquisitions with an <i>initial investment</i> of <b>$1 million or more</b>, or with an estimated <i>five-year system life cost</i> of <b>$2.5 million or more</b>, are considered to have a high cost.</p>
+		<p>Projects or acquisitions with an <i>project cost</i> of <b>$1 million or more</b>, or with an estimated <i>five-year ongoing operatoins cost</i> of <b>$2.5 million or more</b>, are considered to have a high cost.</p>
 
-		<p>You can use the <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">initial investment</a> and <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">system life cost</a> worksheets to estimate the cost of your project or acquisition. 
+		<p>You can use the <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">project cost</a> and <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">ongoing operatoins cost</a> worksheets to estimate the cost of your project or acquisition. 
 		
 		<a class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-non-d" href="javascript:void(0);">Yes</a><a class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-non-d" href="javascript:void(0);">No</a>
 		
@@ -218,15 +218,15 @@
 		<form class="aps-form" id="form-cost" >
 			<h3>Provide some financial information about your project or acquisition:</h3>
 			<p>The financial information provided will help determine your required level of oversight. Use the linked worksheets if you are unsure of the costs.</p>
-			<p>What is the estimated initial investment of your project or acquisition? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">Initial investment worksheet</a><br />
+			<p>What is the estimated project cost of your project or acquisition? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">project cost worksheet</a><br />
 			<div class="field">
-				<label for="initial_investment">Initial Investment:</label>
+				<label for="initial_investment">project cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="initial_investment" id="initial_investment" required>
 			</div>
 			</p>
-			<p>What is the estimated five-year system life cost of your project or acquisition? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">System life cost worksheet</a><br />
+			<p>What is the estimated five-year ongoing operatoins cost of your project or acquisition? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">ongoing operatoins cost worksheet</a><br />
 			<div class="field">
-				<label for="system_life">System life cost:</label>
+				<label for="system_life">ongoing operatoins cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="system_life" id="system_life" required="required" />
 			</div>
 			</p>
@@ -302,7 +302,7 @@
 			<h3>Here is a summary of your planned technology acquisition:</h3>
 			<ul>
 				<li>It is for an academic use in instruction, research, or other scholarly activity; it is not for administrative records or business operations use.</li>
-				<li>The investment cost is less than $1million and the five-year costs will be less than $2.5million.</li>
+				<li>The project cost is less than $1 million and the ongoing operations cost costs will be less than $2.5 million.</li>
 				<li>No other departments will be using the system, nor do you need to use any central administrative computing services or resources.</li>
 				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website.</li>
 			</ul>
@@ -317,7 +317,7 @@
 			<ul>
 				<li>It is for an academic use in instruction, research, or other scholarly activity; it is not for administrative records or business operations use.</li>
 
-				<li>The investment cost is less than $1million and the five-year costs will be less than $2.5million.</li>
+				<li>The project cost is less than $1 million and the ongoing operations costs will be less than $2.5 million.</li>
 
 				<li>Other departments will be using the system, or you require the use of central administrative computing services or resources.</li>
 
@@ -335,13 +335,13 @@
 			<ul>
 				<li>It is for an academic use in instruction, research, or other scholarly activity; it is not for administrative records or business operations use.</li>
 
-				<li>The investment cost is greater than $1 million, the five-year costs will be greater than $2.5million, or both.</li>
+				<li>The project cost is greater than $1 million, the ongoing operations costs will be greater than $2.5 million, or both.</li>
 
 				<li>No other departments will be using the system, nor do you need to use any central administrative computing services or resources.</li>
 
 				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website.</li>			
 			</ul>
-			<p>Submit your recap of investment cost and five-year costs, along with level 1 oversight calculation, to UW-IT for review and concurrence by the VP for UW-IT and CIO.</p>
+			<p>Submit your recap of project costs and ongoing operations costs, along with level 1 oversight calculation, to UW-IT for review and concurrence by the VP for UW-IT and CIO.</p>
 
 			<p>Your department is responsible for following all institutional procurement and stewardship practices, and for seeing that the project is successfully completed.</p>
 
@@ -353,13 +353,13 @@
 			<ul>
 				<li>It is for an academic use in instruction, research, or other scholarly activity; it is not for administrative records or business operations use.</li>
 
-				<li>The investment cost is greater than $1 million, the five-year costs will be greater than $2.5million, or both.</li>
+				<li>The project cost is greater than $1 million, the ongoing operations costs will be greater than $2.5 million, or both.</li>
 
 				<li>Other departments will be using the system, or you require tthe use of central administrative computing services or resources.</li>
 
 				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website.</li>
 			</ul>
-			<p>Submit your recap of investment cost and five-year costs, along with level 1 oversight calculation, to UW-IT via <a href="mailto:help@uw.edu">help@uw.edu</a> for review and concurrence by the VP for UW-IT and CIO.</p>
+			<p>Submit your recap of project cost and ongoing operation costs, along with level 1 oversight calculation, to UW-IT via <a href="mailto:help@uw.edu">help@uw.edu</a> for review and concurrence by the VP for UW-IT and CIO.</p>
 
 			<p>Your department is responsible for following all institutional procurement and stewardship practices, and for seeing that the project is successfully completed. This includes coordinating with the other departments as necessary to ensure satisfactory results.</p>
 
@@ -376,9 +376,9 @@
 			<ul>
 				<li>It has a <b>level <span id="recap-level"></span> oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website. Please print out that report and include it for review by UW-IT.</li>
 
-				<li><b>Total investment cost:</b> $<span id="recap-investment"></span></li>
+				<li><b>Total project cost:</b> $<span id="recap-investment"></span></li>
 
-				<li><b>Five-year system life cost:</b> $<span id="recap-5yr"></span></li>
+				<li><b>Five-year ongoing operatoins cost:</b> $<span id="recap-5yr"></span></li>
 
 				<li>The project will affect multiple departments in the following way:<div id="recap-multi"></div></li>
 
@@ -419,8 +419,8 @@
 				<li>It is for administrative or business-related IT systems and applications that are not associated with UW Medicine</li>
 
 				<li>
-					<span id="recap-highcost" class="recap-hidden">The investment cost is greater than $1 million, the five-year costs will be greater than $2.5 million, or both.</span>
-					<span id="recap-lowcost" class="recap-hidden">The investment cost is less than $1 million, and the five-year costs will be less than $2.5 million</span>
+					<span id="recap-highcost" class="recap-hidden">The project cost is greater than $1 million, the five-year ongoing operations costs will be greater than $2.5 million, or both.</span>
+					<span id="recap-lowcost" class="recap-hidden">The project cost is less than $1 million, and the five-year ongoing operations costs will be less than $2.5 million</span>
 				</li>
 
 				<li>The project will affect multiple departments in the following way:<div id="recap-multi-non"></span></li>
@@ -479,7 +479,7 @@
 			 
 			<ul>
 				<li>It is for administrative or business related IT systems and applications, and is not part of UW Medicine</li>
-				<li>Investment cost is <b>$<span id="recap-investment-non"></span></b> and five-year costs are <b>$<span id="recap-5yr-non"></span></b></li>
+				<li>project cost is <b>$<span id="recap-investment-non"></span></b> and five-year ongoing operations costs are <b>$<span id="recap-5yr-non"></span></b></li>
 				<li><span id="recap-multi-non-complex"></span></li>
 				<li><span id="recap-central-non-complex"></span></li>
 				<li>It has a <b>Level <span id="recap-level-non"></span> oversight</b> as calculated using risk and severity tools on State of Washington OCIO website</li>
@@ -512,7 +512,7 @@
 			 
 			<p>Draft the complete Investment Plan document, with additional details (budget, schedule, risks and mitigation) as identified through procurement process. This must be approved by VP for UW-IT and CIO, who will request formal approval from state OCIO.</p>
 			 
-			<p>Depending on the size of the contracts and project investment costs, UW Board of Regents approval may also be required.</p>
+			<p>Depending on the size of the contracts and project project costs, UW Board of Regents approval may also be required.</p>
 			 
 			<p>Develop a Project Plan and governance process for approval by VP for UW-IT and CIO</p>
 			 
