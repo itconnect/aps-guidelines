@@ -102,13 +102,13 @@
 			<p>The financial information provided will help determine your required level of oversight. Use the linked worksheets if you are unsure of the costs.</p>
 			<p>What is the estimated project cost of your project or acquisition? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">project cost worksheet</a><br />
 			<div class="field">
-				<label for="initial_investment">project cost:</label>
+				<label for="initial_investment">Project cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="initial_investment" id="initial_investment" required>
 			</div>
 			</p>
 			<p>What is the estimated five-year ongoing operatoins cost of your project or acquisition? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">ongoing operatoins cost worksheet</a><br />
 			<div class="field">
-				<label for="system_life">ongoing operatoins cost:</label>
+				<label for="system_life">Ongoing operatoins cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="system_life" id="system_life" required="required" />
 			</div>
 			</p>
@@ -220,13 +220,13 @@
 			<p>The financial information provided will help determine your required level of oversight. Use the linked worksheets if you are unsure of the costs.</p>
 			<p>What is the estimated project cost of your project or acquisition? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">project cost worksheet</a><br />
 			<div class="field">
-				<label for="initial_investment">project cost:</label>
+				<label for="initial_investment">Project cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="initial_investment" id="initial_investment" required>
 			</div>
 			</p>
 			<p>What is the estimated five-year ongoing operatoins cost of your project or acquisition? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">ongoing operatoins cost worksheet</a><br />
 			<div class="field">
-				<label for="system_life">ongoing operatoins cost:</label>
+				<label for="system_life">Ongoing operatoins cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="system_life" id="system_life" required="required" />
 			</div>
 			</p>
@@ -310,6 +310,8 @@
 			<p>Your department is responsible for following all institutional procurement and stewardship practices, and for seeing that the project is successfully completed.</p>
 
 			<p>Your department is to maintain a record to document all of the above if it is requested in a future audit. You may print a copy of this information, or save a screen shot for the department record.</p>
+
+			<p style="color: #4b2e83; font-weight: bold;">Please save or print this page for your records.</p>
 		</div>
 
 		<div class="recap" id="aca-2">
@@ -323,11 +325,13 @@
 
 				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website.</li>
 			</ul>
-			<p>Prior approval is required for use of central administrative computing services or resources. Contact UW-IT at <a href="mailto:help@uw.edu">help@uw.edu</a> to ensure your requested needs can be addressed on the schedule you want to follow.</p>
+			<p>Prior approval is required for use of central administrative computing services or resources. Contact UW-IT at <a href="mailto:help@uw.edu?subject=APS 2.3 request">help@uw.edu</a> to ensure your requested needs can be addressed on the schedule you want to follow.</p>
 
 			<p>Your department is responsible for following all institutional procurement and stewardship practices, and for seeing that the project is successfully completed. This includes coordinating with the other departments as necessary to ensure satisfactory results.</p>
 
 			<p>Your department is to maintain a record to document all of the above if it is requested in a future audit. You may print a copy of this information, or save a screen shot for the department record.</p>
+
+			<p style="color: #4b2e83; font-weight: bold;">Please save or print this page for your records.</p>
 		</div>
 
 		<div class="recap" id="aca-3">
@@ -341,11 +345,13 @@
 
 				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website.</li>			
 			</ul>
-			<p>Submit your recap of project costs and ongoing operations costs, along with level 1 oversight calculation, to UW-IT for review and concurrence by the VP for UW-IT and CIO.</p>
+			<p>Submit your recap of project costs and ongoing operations costs, along with level 1 oversight calculation, to UW-IT via <a href="mailto:help@uw.edu?subject=APS 2.3 request">help@uw.edu</a> for review and concurrence by the VP for UW-IT and CIO.</p>
 
 			<p>Your department is responsible for following all institutional procurement and stewardship practices, and for seeing that the project is successfully completed.</p>
 
 			<p>Your department is to maintain a record to document all of the above if it is requested in a future audit. You may print a copy of this information, or save a screen shot for the department record.</p>
+
+			<p style="color: #4b2e83; font-weight: bold;">Please save or print this page for your records.</p>
 		</div>
 
 		<div class="recap" id="aca-4">
@@ -359,11 +365,13 @@
 
 				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website.</li>
 			</ul>
-			<p>Submit your recap of project cost and ongoing operation costs, along with level 1 oversight calculation, to UW-IT via <a href="mailto:help@uw.edu">help@uw.edu</a> for review and concurrence by the VP for UW-IT and CIO.</p>
+			<p>Submit your recap of project cost and ongoing operation costs, along with level 1 oversight calculation, to UW-IT via <a href="mailto:help@uw.edu?subject=APS 2.3 request">help@uw.edu</a> for review and concurrence by the VP for UW-IT and CIO.</p>
 
 			<p>Your department is responsible for following all institutional procurement and stewardship practices, and for seeing that the project is successfully completed. This includes coordinating with the other departments as necessary to ensure satisfactory results.</p>
 
 			<p>Your department is to maintain a record to document all of the above if it is requested in a future audit. You may print a copy of this information, or save a screen shot for the department record.</p>
+
+			<p style="color: #4b2e83; font-weight: bold;">Please save or print this page for your records.</p>
 		</div>
 
 		<div class="recap" id="aca-5">
@@ -401,7 +409,7 @@
 				<li>Other information as outlined in the Investment Plan template</li>
 			</ul>
 
-			<p>Contact UW-IT via <a href="mailto:help@uw.edu">help@uw.edu</a> to set up a time to discuss the draft Investment Plan and any questions you may have about this process.</p>
+			<p>Contact UW-IT via <a href="mailto:help@uw.edu?subject=APS 2.3 request">help@uw.edu</a> to set up a time to discuss the draft Investment Plan and any questions you may have about this process.</p>
 
 			<p>Once your project is approved by the VP for UW-IT and CIO, your department will be responsible for:</p>
 			<ul>
@@ -409,6 +417,8 @@
 				<li>Project progress reporting and management oversight</li>
 				<li>If the project will take more than 12 months, submitting quarterly progress reports to VP for UW-IT and CIO</li>
 			</ul>
+
+			<p style="color: #4b2e83; font-weight: bold;">Please save or print this page for your records. You may need to submit a copy of this information to UW-IT.</p>
 		</div>
 
 
@@ -438,6 +448,8 @@
 				<p>Your department is responsible for providing project oversight and quality assurance to ensure the project remains on schedule, and is within its approved budget and scope. <b>Any significant changes require you to reassess the oversight level and project costs to validate that it still qualifies for this Small Project Exemption.</b></p>
 
 				<p>Your department is to maintain documentation of all of the above in case it is requested in a future audit. You may print a copy of this information, or save a screen shot for the department record.</p>
+
+				<p style="color: #4b2e83; font-weight: bold;">Please save or print this page for your records.</p>
 			</div>
 
 			<div id="recap-non-long" class="recap-hidden">
@@ -455,7 +467,7 @@
 					<li>Other information as outlined in the Investment Plan template</li>
 				</ul>
 
-				<p>Contact UW-IT via <a href="mailto:help@uw.edu">help@uw.edu</a> to set up a time to discuss the draft Investment Plan and any questions you may have about this process.</p>
+				<p>Contact UW-IT via <a href="mailto:help@uw.edu?subject=APS 2.3 request">help@uw.edu</a> to set up a time to discuss the draft Investment Plan and any questions you may have about this process.</p>
 
 				<p>Once your project is approved by the VP for UW-IT and CIO, your department will be responsible for:</p>
 
@@ -465,6 +477,8 @@
 				</ul>
 
 				<p>Any significant changes in approved project budget, scope or schedule will require you to reassess the oversight level and project costs to resubmit for review and approval by UW-IT.</p>
+
+				<p style="color: #4b2e83; font-weight: bold;">Please save or print this page for your records. You may need to submit a copy of this information to UW-IT.</p>
 			</div>
 		</div>
 
@@ -488,7 +502,7 @@
 			 
 			<p>Please draft a Concept Briefing Document, which is appendix B on the state of Washington's <a href="https://ocio.wa.gov/policies/121-it-investments-approval-and-oversight/121-procedures" target="_blank">OCIO IT Investments - Approval and Oversight website</a>.</p>
 			 
-			<p>Submit the draft Concept Briefing Document, a copy of your oversight level calculation report, and a copy of this Stage 1 summary information to UW-IT.</p>
+			<p>Submit the draft Concept Briefing Document, a copy of your oversight level calculation report, and a copy of this Stage 1 summary information to UW-IT via <a href="mailto:help@uw.edu?subject=APS 2.3 request">help@uw.edu</a>.</p>
 
 			<p>UW-IT will contact you to set up a time to meet and discuss next steps.   When we have all required materials assembled and approved by VP for UW-IT and CIO, we will proceed to work with State of Washington OCIO for approval to move forward.  <b>NOTE:</b> No acquisitions may begin until we have state approval.</p>
 			 
@@ -519,14 +533,10 @@
 			<p>UW IT Strategy Board will be updated and overall project.</p>
 			 
 			<p>Begin regular project reporting, including posting to State of Washington OCIO website of monthly progress report and QA report.</p>
+
+			<p style="color: #4b2e83; font-weight: bold;">Please save or print this page for your records. You may need to submit a copy of this information to UW-IT.</p>
 		</div>
 
 	</div><!-- Slide RECAP -->
-
-	<!-- END RECAP SLIDES ******************************************************************************** -->
-
-	<div class="slide" id="aps-x">
-
-	</div><!-- Slide x -->
 
 </div>
