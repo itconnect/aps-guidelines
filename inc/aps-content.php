@@ -73,7 +73,7 @@
 				<input type="text" name="short_title" id="short_title" required>
 			</div>
 			<div class="field">
-				<label for="description">Description:</label>
+				<label for="description" style="vertical-align: top;">Description:</label>
 				<textarea name="description" id="description" rows="5" cols="80" style="font-size: 0.9em;"></textarea>
 			</div>
 			<div class="field">
@@ -230,7 +230,7 @@
 				<input type="text" name="short_title" id="short_title" required>
 			</div>
 			<div class="field">
-				<label for="description">Description:</label>
+				<label for="description" style="vertical-align: top;">Description:</label>
 				<textarea name="description" id="description" rows="5" cols="80" style="font-size: 0.9em;"></textarea>
 			</div>
 			<div class="field">
