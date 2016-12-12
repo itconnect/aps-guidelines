@@ -34,10 +34,11 @@
 
 		<p>If your project or acquisition doesn't meet the criteria for either academic or medical, select "Everything else"</p>
 
-		<a class="uw-btn aps-option" data-aps-branch="aca" data-aps-goto="aps-aca-a" href="javascript:void(0);">Academic</a><a class="uw-btn aps-option" data-aps-branch="med" data-aps-goto="aps-med-a" href="javascript:void(0);">Medical</a><a class="uw-btn aps-option" data-aps-branch="non" data-aps-goto="aps-non-a" href="javascript:void(0);">Everything else</a>
+		<a class="uw-btn aps-option" data-aps-branch="aca" data-aps-goto="aps-aca-a" href="javascript:void(0);">Academic</a><a class="uw-btn aps-option" data-aps-branch="med" data-aps-goto="aps-med-a" href="javascript:void(0);">Medical</a><a class="uw-btn aps-option" data-aps-branch="non" data-aps-goto="aps-non-basics" href="javascript:void(0);">Everything else</a>
 	</div><!-- Slide 1 -->
 
 	<!-- ACADEMIC SLIDES ******************************************************************************** -->
+
 
 	<div class="slide academic" id="aps-aca-a" data-aps-slide="academic">
 		<h3>Your project or acquisition is for academic purposes.</h3>
@@ -48,9 +49,39 @@
 
 		<p>With that in mind, can you confirm your project or acquisition meets the criteria for Academic Exemption?</p>
 
-		<a class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-aca-b" href="javascript:void(0);">Confirm</a><a class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-1" href="javascript:void(0);">Go back</a>
+		<a class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-aca-basics" href="javascript:void(0);">Confirm</a><a class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-1" href="javascript:void(0);">Go back</a>
 
 	</div><!-- Slide aca a -->
+
+	<div class="slide academic" id="aps-aca-basics" data-aps-slide="basics" data-aps-input="true">
+
+		<h3>Let's start off with some basics</h3>
+
+		<p>We'll need to know a little bit about your project or acquisition. In the fields below, please provide your name, department, a short title for your project or acquisition, and a brief, high-level description.</p>
+
+		<form class="aps-form" id="form-aca-basics" >
+			<div class="field">
+				<label for="preparer_name">Name:</label>
+				<input type="text" name="preparer_name" id="preparer_name" required>
+			</div>
+			<div class="field">
+				<label for="dept">Department:</label>
+				<input type="text" name="dept" id="dept" required>
+			</div>
+			<div class="field">
+				<label for="short_title">Short title:</label>
+				<input type="text" name="short_title" id="short_title" required>
+			</div>
+			<div class="field">
+				<label for="description">Description:</label>
+				<textarea name="description" id="description" rows="5" cols="80" style="font-size: 0.9em;"></textarea>
+			</div>
+			<div class="field">
+				<a class="uw-btn aps-option required" data-aps-goto="aps-aca-b" href="javascript:void(0);">Submit</a>
+			</div>
+		</form>
+
+	</div><!-- Slide aca basics -->
 
 	<div class="slide academic" id="aps-aca-b" data-aps-slide="level">
 		<h3>Please complete the Risk and Severity Assessment</h3>
@@ -179,6 +210,36 @@
 	<!-- END MEDICAL SLIDES ***************************************************************************** -->
 	<!-- NON-EXEMPT SLIDES ****************************************************************************** -->
 
+	<div class="slide academic" id="aps-non-basics" data-aps-slide="basics" data-aps-input="true">
+
+		<h3>Let's start off with some basics</h3>
+
+		<p>We'll need to know a little bit about your project or acquisition. In the fields below, please provide your name, department, a short title for your project or acquisition, and a brief, high-level description.</p>
+
+		<form class="aps-form" id="form-non-basics" >
+			<div class="field">
+				<label for="preparer_name">Name:</label>
+				<input type="text" name="preparer_name" id="preparer_name" required>
+			</div>
+			<div class="field">
+				<label for="dept">Department:</label>
+				<input type="text" name="dept" id="dept" required>
+			</div>
+			<div class="field">
+				<label for="short_title">Short title:</label>
+				<input type="text" name="short_title" id="short_title" required>
+			</div>
+			<div class="field">
+				<label for="description">Description:</label>
+				<textarea name="description" id="description" rows="5" cols="80" style="font-size: 0.9em;"></textarea>
+			</div>
+			<div class="field">
+				<a class="uw-btn aps-option required" data-aps-goto="aps-non-a" href="javascript:void(0);">Submit</a>
+			</div>
+		</form>
+
+	</div><!-- Slide aca basics -->
+
 	<div class="slide non" id="aps-non-a" data-aps-slide="level">
 		<h3>Please complete the Risk and Severity calculator</h3>
 
@@ -298,8 +359,11 @@
 	<div class="slide" id="recap" data-aps-slide="recap">
 	
 	<!-- ACADEMIC RECAPS -->
+		<div class="recap" id="aca-basics"></div>
+
 		<div class="recap" id="aca-1">
 			<h3>Here is a summary of your planned technology acquisition:</h3>
+			<div class="basics-wrap"></div>
 			<ul>
 				<li>It is for an academic use in instruction, research, or other scholarly activity; it is not for administrative records or business operations use.</li>
 				<li>The project cost is less than $1 million and the ongoing operations cost costs will be less than $2.5 million.</li>
@@ -316,6 +380,7 @@
 
 		<div class="recap" id="aca-2">
 			<h3>Here is a summary of your planned technology acquisition:</h3>
+			<div class="basics-wrap"></div>
 			<ul>
 				<li>It is for an academic use in instruction, research, or other scholarly activity; it is not for administrative records or business operations use.</li>
 
@@ -336,6 +401,7 @@
 
 		<div class="recap" id="aca-3">
 			<h3>Here is a summary of your planned technology acquisition:</h3>
+			<div class="basics-wrap"></div>
 			<ul>
 				<li>It is for an academic use in instruction, research, or other scholarly activity; it is not for administrative records or business operations use.</li>
 
@@ -356,6 +422,7 @@
 
 		<div class="recap" id="aca-4">
 			<h3>Here is a summary of your planned technology acquisition:</h3>
+			<div class="basics-wrap"></div>
 			<ul>
 				<li>It is for an academic use in instruction, research, or other scholarly activity; it is not for administrative records or business operations use.</li>
 
@@ -377,6 +444,8 @@
 		<div class="recap" id="aca-5">
 			<h3>The following summary and requirements apply to your project or acquisition:</h3>
 
+			<div class="basics-wrap"></div>
+
 			<p>Your planned technology acquisition is for an academic use in instruction, research, or other scholarly activity; itis not for administrative records or business operations use.</p>
 
 			<h4>A summary of the information about your project</h4>
@@ -397,7 +466,7 @@
 
 			<p>UW-IT needs to work with you on additional information about your project, for review and approval by the VP for UW-IT and CIO.</p>
 
-			<p>Please use the <a href="#" target="_blank">Investment Plan Template</a>, being sure to include the above information, and the following:</p>
+			<p>Please use the <a href="https://ocio.wa.gov/policy/appendix-c-technology-investmentproject-summaries-11210" target="_blank">Investment Plan Template</a>, being sure to include the above information, and the following:</p>
 
 			<ul>
 				<li>Selection process if acquiring any components from vendors, such as software, hardware, services including both hosting and consulting;</li>
@@ -425,6 +494,7 @@
 	<!-- NON-EXEMPT RECAPS -->
 		<div class="recap" id="non-1">
 			<h3>Here is a summary of your planned technology acquisition:</h3>
+			<div class="basics-wrap"></div>
 			<ul>
 				<li>It is for administrative or business-related IT systems and applications that are not associated with UW Medicine</li>
 
@@ -455,7 +525,7 @@
 			<div id="recap-non-long" class="recap-hidden">
 				<p>UW-IT needs to work with you on additional information about your project, for review and approval by the Vice President for UW-IT and Chief Information Officer (VP for UW-IT and CIO).</p>
 
-				<p>Please use the <a href="#" target="_blank">Investment Plan Template</a>, being sure to include the above information, and the following:</p>
+				<p>Please use the <a href="https://ocio.wa.gov/policy/appendix-c-technology-investmentproject-summaries-11210" target="_blank">Investment Plan Template</a>, being sure to include the above information, and the following:</p>
 
 				<ul>
 					<li>Selection process if acquiring any components from vendors, such as software, hardware, services including both hosting and consulting</li>
@@ -484,7 +554,7 @@
 
 		<div class="recap" id="non-2">
 			<h3>Here is a summary of your planned technology acquisition:</h3>
-
+			<div class="basics-wrap"></div>
 			<p>State of Washington law and policies of the State Chief Information Officer require certain reviews and approvals before any action can proceed, even when no state appropriations are to be used to fund the project.</p>
 			 
 			<p>As a general rule, we will work with you through three stages of reviews and approvals. Please review the steps outlined below, prepare preliminary materials as indicated, then contact UW-IT to schedule a meeting to review the overall process and plan next steps.</p>
@@ -535,6 +605,13 @@
 			<p>Begin regular project reporting, including posting to State of Washington OCIO website of monthly progress report and QA report.</p>
 
 			<p style="color: #4b2e83; font-weight: bold;">Please save or print this page for your records. You may need to submit a copy of this information to UW-IT.</p>
+		</div>
+
+		<div id="basics">
+			<b>Name: </b><span id="basics-name"></span><br />
+			<b>Department: </b><span id="basics-dept"></span><br />
+			<b>Short title: </b><span id="basics-title"></span><br />
+			<b>Description: </b><span id="basics-desc"></span><br />
 		</div>
 
 	</div><!-- Slide RECAP -->

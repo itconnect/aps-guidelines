@@ -197,15 +197,22 @@
 					highcost = APS.storedData.values.highcost,
 					multi = APS.storedData.values.multi;
 
+				//$('#aca-basics').append(this.compileBasics('form-aca-basics'));
+				$('#aca-basics').show();
+
 				// Level 1
 				if (level == '1') {
 					if (highcost == false && multi == false) {
+						this.compileBasics('form-aca-basics', 'aca-1');
 						$('#aca-1').show();
 					} else if (highcost == false && multi == true) {
+						this.compileBasics('form-aca-basics', 'aca-2');
 						$('#aca-2').show();
 					} else if (highcost == true && multi == false) {
+						this.compileBasics('form-aca-basics', 'aca-3');
 						$('#aca-3').show();
 					} else if (highcost == true && multi == true) {
+						this.compileBasics('form-aca-basics', 'aca-4');
 						$('#aca-4').show();
 					}
 				// Level 2
@@ -229,6 +236,7 @@
 
 					$('#recap-duration').text(APS.storedData.values['form-duration']['duration']);
 
+					this.compileBasics('form-aca-basics', 'aca-5');
 					$('#aca-5').show();
 				}
 			},
@@ -268,6 +276,7 @@
 						$('#recap-non-short').hide();
 					} 
 
+					this.compileBasics('form-non-basics', 'non-1');
 					$('#non-1').show();
 				// Level 2
 				} else if (level == '2' || level == '3') {
@@ -292,9 +301,16 @@
 					}
 
 					$('#recap-duration-non-complex').text(APS.storedData.values['form-duration']['duration']);
-
+					this.compileBasics('form-non-basics', 'non-2');
 					$('#non-2').show();
 				}
+			},
+			compileBasics: function(which, loc) {
+				$('#basics-name').text(APS.storedData.values[which]['preparer_name']);
+				$('#basics-dept').text(APS.storedData.values[which]['dept']);
+				$('#basics-title').text(APS.storedData.values[which]['short_title']);
+				$('#basics-desc').text(APS.storedData.values[which]['description']);
+				$('#' + loc + ' .basics-wrap').prepend($('#basics'));
 			}
 		},
 		init: function() {

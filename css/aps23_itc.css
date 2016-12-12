@@ -166,6 +166,22 @@ div.required-error-wrap span.required-error:before {
 	margin: 10px 0 0;
 }
 
+#form-aca-basics label,
+#form-non-basics label {
+	width: 105px;
+	text-align: right;
+	display: inline-block;
+}
+
+#recap #basics {
+	display: none;
+}
+
+#recap .recap #basics {
+	display: block;
+	margin-bottom: 10px;
+}
+
 @media print {
   .top-controls,
   .uw-site-title,
