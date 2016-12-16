@@ -111,7 +111,7 @@
 
 		<p>Projects or acquisitions with an <i>project cost</i> of <b>$1 million or more</b>, or with an estimated <i>five-year ongoing operatoins cost</i> of <b>$2.5 million or more</b>, are considered to have a high cost.</p>
 
-		<p>You can use the <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">project cost</a> and <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">ongoing operatoins cost</a> worksheets to estimate the cost of your project or acquisition. 
+		<p>You can use the <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/project-investment-cost.pdf" target="_blank">project cost</a> and <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/ongoing-operations-cost.pdf" target="_blank">ongoing operatoins cost</a> worksheets to estimate the cost of your project or acquisition. 
 		
 		<a class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-aca-d" href="javascript:void(0);">Yes</a><a class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-aca-d" href="javascript:void(0);">No</a>
 
@@ -131,13 +131,13 @@
 		<form class="aps-form" id="form-cost" >
 			<h3>Provide some financial information about your project or acquisition:</h3>
 			<p>The financial information provided will help determine your required level of oversight. Use the linked worksheets if you are unsure of the costs.</p>
-			<p>What is the estimated project cost of your project or acquisition? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">project cost worksheet</a><br />
+			<p>What is the estimated project cost of your project or acquisition? <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/project-investment-cost.pdf" target="_blank">project cost worksheet</a><br />
 			<div class="field">
 				<label for="initial_investment">Project cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="initial_investment" id="initial_investment" required>
 			</div>
 			</p>
-			<p>What is the estimated five-year ongoing operatoins cost of your project or acquisition? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">ongoing operatoins cost worksheet</a><br />
+			<p>What is the estimated five-year ongoing operatoins cost of your project or acquisition? <a class="aps-moreinfo" data-href="https://itconnect.uw.edu/wp-content/uploads/2016/12/ongoing-operations-cost.pdf" target="_blank">ongoing operatoins cost worksheet</a><br />
 			<div class="field">
 				<label for="system_life">Ongoing operatoins cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="system_life" id="system_life" required="required" />
@@ -268,7 +268,7 @@
 
 		<p>Projects or acquisitions with an <i>project cost</i> of <b>$1 million or more</b>, or with an estimated <i>five-year ongoing operatoins cost</i> of <b>$2.5 million or more</b>, are considered to have a high cost.</p>
 
-		<p>You can use the <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">project cost</a> and <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">ongoing operatoins cost</a> worksheets to estimate the cost of your project or acquisition. 
+		<p>You can use the <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/project-investment-cost.pdf" target="_blank">project cost</a> and <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/ongoing-operations-cost.pdf" target="_blank">ongoing operatoins cost</a> worksheets to estimate the cost of your project or acquisition. 
 		
 		<a class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-non-d" href="javascript:void(0);">Yes</a><a class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-non-d" href="javascript:void(0);">No</a>
 		
@@ -279,13 +279,13 @@
 		<form class="aps-form" id="form-cost" >
 			<h3>Provide some financial information about your project or acquisition:</h3>
 			<p>The financial information provided will help determine your required level of oversight. Use the linked worksheets if you are unsure of the costs.</p>
-			<p>What is the estimated project cost of your project or acquisition? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">project cost worksheet</a><br />
+			<p>What is the estimated project cost of your project or acquisition? <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/project-investment-cost.pdf" target="_blank">project cost worksheet</a><br />
 			<div class="field">
 				<label for="initial_investment">Project cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="initial_investment" id="initial_investment" required>
 			</div>
 			</p>
-			<p>What is the estimated five-year ongoing operatoins cost of your project or acquisition? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">ongoing operatoins cost worksheet</a><br />
+			<p>What is the estimated five-year ongoing operatoins cost of your project or acquisition? <a class="aps-moreinfo" data-fhref="https://itconnect.uw.edu/wp-content/uploads/2016/12/ongoing-operations-cost.pdf" target="_blank">ongoing operatoins cost worksheet</a><br />
 			<div class="field">
 				<label for="system_life">Ongoing operatoins cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="system_life" id="system_life" required="required" />
