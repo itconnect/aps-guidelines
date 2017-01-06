@@ -1,6 +1,8 @@
 (function(){
 	APS = {
-		'storedData': {},
+		'storedData': {
+			'currentSlide':'intro'
+		},
 		addListeners: function () {
 			// Listen for initilization
 			$('.aps-init').click(function(){
@@ -126,8 +128,8 @@
 			}
 
 			$('#' + slide).fadeIn(400);
+			$('#' + APS.storedData['lastSlide']).attr('aria-hidden', 'flase');
 			$('#' + slide).attr('aria-hidden', 'flase');
-			// aria hidden here
 		},
 		createStorage: function() {
 			APS.storedData = {

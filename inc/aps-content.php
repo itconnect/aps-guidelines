@@ -3,7 +3,7 @@
 		<a id="back-one-slide" href="javascript:void(0);">Back</a>
 		<a id="back-to-start" href="javascript:void(0);">Restart</a>
 	</div>
-	<div aria-label="slide" aria-hidden="true" class="slide active" id="aps-0">
+	<div aria-label="slide" aria-hidden="false" class="slide active" id="aps-0">
 		<h2 class="splash title">University of Washington</h2>
 		<span class="splash tagline">Information Technology (IT) Project &amp; Acquisitions Procedure</span></h2>
 
