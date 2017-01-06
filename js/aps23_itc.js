@@ -126,6 +126,8 @@
 			}
 
 			$('#' + slide).fadeIn(400);
+			$('#' + slide).attr('aria-hidden', 'flase');
+			// aria hidden here
 		},
 		createStorage: function() {
 			APS.storedData = {

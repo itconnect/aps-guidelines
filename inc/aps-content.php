@@ -1,24 +1,24 @@
-<div class="aps wrap" id="aps">
+<div class="aps wrap" id="aps" aria-label="Questionaire slideshow">
 	<div class="top-controls">
 		<a id="back-one-slide" href="javascript:void(0);">Back</a>
 		<a id="back-to-start" href="javascript:void(0);">Restart</a>
 	</div>
-	<div class="slide active" id="aps-0">
+	<div aria-label="slide" aria-hidden="true" class="slide active" id="aps-0">
 		<h2 class="splash title">University of Washington</h2>
 		<span class="splash tagline">Information Technology (IT) Project &amp; Acquisitions Procedure</span></h2>
 
 		<p>All University of Washington (UW) technology projects and acquisitions are governed by the UW's Policy on Information Technology, Telecommunications and Networking Projects and Acquisitions (abbreviated APS 2.3). Certain processes and approvals may by required, depending on the type and size of the technology expenditures you need to make.<br /><br />These webpages help you determine what approvals and other processes are required under APS 2.3.<br /><br /><b>Before you begin:</b> Contact your internal department administrator to determine how the department handles new IT projects.</p>
 
-		<a class="uw-btn aps-init" data-aps-goto="aps-1" href="javascript:void(0);">Let's Get Started</a>
+		<a role="button" class="uw-btn aps-init" data-aps-goto="aps-1" href="javascript:void(0);">Let's Get Started</a>
 	</div><!-- Slide 0 -->
 
-	<div class="slide" id="aps-restart">
+	<div aria-label="slide" aria-hidden="true" class="slide" id="aps-restart">
 		<h3>It appears you've previously started or completed this process.</h3>
 		<p>Would you like to start this process for a new project or acquisition, or continue from where you left off before? If you start over, all data stored in your browsers memory from previous projects will be permanently deleted.</p>
-		<a class="uw-btn aps-restart" data-aps-restart="yes" href="javascript:void(0);">Start over</a><a class="uw-btn aps-restart" data-aps-restart="no" href="javascript:void(0);">Continue from where I left off</a>
+		<a role="button" class="uw-btn aps-restart" data-aps-restart="yes" href="javascript:void(0);">Start over</a><a role="button" class="uw-btn aps-restart" data-aps-restart="no" href="javascript:void(0);">Continue from where I left off</a>
 	</div><!-- Slide restart -->
 
-	<div class="slide" id="aps-1">
+	<div aria-label="slide" aria-hidden="true" class="slide" id="aps-1">
 		<h3>Is your IT acquisition or project for academic or medical purposes?</h3>
 
 		<p>Academic projects or acquisitions are for instruction, scholarship or research purposes, but not for the business or administrative operations that support them. <a class="aps-moreinfo" data-featherlight="#more-aca" href="#">More information</a></p>
@@ -34,13 +34,13 @@
 
 		<p>If your project or acquisition doesn't meet the criteria for either academic or medical, select "Everything else"</p>
 
-		<a class="uw-btn aps-option" data-aps-branch="aca" data-aps-goto="aps-aca-a" href="javascript:void(0);">Academic</a><a class="uw-btn aps-option" data-aps-branch="med" data-aps-goto="aps-med-a" href="javascript:void(0);">Medical</a><a class="uw-btn aps-option" data-aps-branch="non" data-aps-goto="aps-non-basics" href="javascript:void(0);">Everything else</a>
+		<a role="button" class="uw-btn aps-option" data-aps-branch="aca" data-aps-goto="aps-aca-a" href="javascript:void(0);">Academic</a><a role="button" class="uw-btn aps-option" data-aps-branch="med" data-aps-goto="aps-med-a" href="javascript:void(0);">Medical</a><a role="button" class="uw-btn aps-option" data-aps-branch="non" data-aps-goto="aps-non-basics" href="javascript:void(0);">Everything else</a>
 	</div><!-- Slide 1 -->
 
 	<!-- ACADEMIC SLIDES ******************************************************************************** -->
 
 
-	<div class="slide academic" id="aps-aca-a" data-aps-slide="academic">
+	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-aca-a" data-aps-slide="academic">
 		<h3>Your project or acquisition is for academic purposes.</h3>
 
 		<p>Your project or acquisition is for use in instruction, scholarship or research purposes, but not for use by the business or administrative operations that support them.</p>
@@ -49,11 +49,11 @@
 
 		<p>With that in mind, can you confirm your project or acquisition meets the criteria for Academic Exemption?</p>
 
-		<a class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-aca-basics" href="javascript:void(0);">Confirm</a><a class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-1" href="javascript:void(0);">Go back</a>
+		<a role="button" class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-aca-basics" href="javascript:void(0);">Confirm</a><a role="button" class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-1" href="javascript:void(0);">Go back</a>
 
 	</div><!-- Slide aca a -->
 
-	<div class="slide academic" id="aps-aca-basics" data-aps-slide="basics" data-aps-input="true">
+	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-aca-basics" data-aps-slide="basics" data-aps-input="true">
 
 		<h3>Let's start off with some basics</h3>
 
@@ -77,13 +77,13 @@
 				<textarea name="description" id="description" rows="5" cols="80" style="font-size: 0.9em;"></textarea>
 			</div>
 			<div class="field">
-				<a class="uw-btn aps-option required" data-aps-goto="aps-aca-b" href="javascript:void(0);">Submit</a>
+				<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-aca-b" href="javascript:void(0);">Submit</a>
 			</div>
 		</form>
 
 	</div><!-- Slide aca basics -->
 
-	<div class="slide academic" id="aps-aca-b" data-aps-slide="level">
+	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-aca-b" data-aps-slide="level">
 		<h3>Please complete the Risk and Severity Assessment</h3>
 
 		<p>You'll need to complete a Risk and Severity Assessment using a calculator on the Washington State Office of the Chief Information Officer's (OCIO) web site. Clicking the button below will open a popup containing the calculator.</p>
@@ -102,31 +102,31 @@
 		</div></div>
 		<!-- End popover -->
 
-		<a class="uw-btn aps-option" data-aps-value="1" data-aps-goto="aps-aca-c" href="javascript:void(0);">Level 1</a><a class="uw-btn aps-option" data-aps-value="2" data-aps-goto="aps-aca-e" href="javascript:void(0);">Level 2</a><a class="uw-btn aps-option" data-aps-value="3" data-aps-goto="aps-aca-e" href="javascript:void(0);">Level 3</a>
+		<a role="button" class="uw-btn aps-option" data-aps-value="1" data-aps-goto="aps-aca-c" href="javascript:void(0);">Level 1</a><a role="button" class="uw-btn aps-option" data-aps-value="2" data-aps-goto="aps-aca-e" href="javascript:void(0);">Level 2</a><a role="button" class="uw-btn aps-option" data-aps-value="3" data-aps-goto="aps-aca-e" href="javascript:void(0);">Level 3</a>
 
 	</div><!-- Slide aca b -->
 
-	<div class="slide academic" id="aps-aca-c" data-aps-slide="highcost">
+	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-aca-c" data-aps-slide="highcost">
 		<h3>Does your project or acquisition have a high project cost or ongoing operatoins cost?</h3>
 
 		<p>Projects or acquisitions with an <i>project cost</i> of <b>$1 million or more</b>, or with an estimated <i>five-year ongoing operatoins cost</i> of <b>$2.5 million or more</b>, are considered to have a high cost.</p>
 
 		<p>You can use the <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/project-investment-cost.pdf" target="_blank">project cost</a> and <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/ongoing-operations-cost.pdf" target="_blank">ongoing operatoins cost</a> worksheets to estimate the cost of your project or acquisition. 
 		
-		<a class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-aca-d" href="javascript:void(0);">Yes</a><a class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-aca-d" href="javascript:void(0);">No</a>
+		<a role="button" class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-aca-d" href="javascript:void(0);">Yes</a><a role="button" class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-aca-d" href="javascript:void(0);">No</a>
 
 	</div><!-- Slide aca c -->
 
-	<div class="slide academic" id="aps-aca-d" data-aps-slide="multi">
+	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-aca-d" data-aps-slide="multi">
 		<h3>Does your project or acquisition reach beyond your own department?</h3>
 
 		<p>Will more than one department be affected by your project or acquisition, or do you need to use any central administrative computing services or resources?</p>
 		
-		<a class="uw-btn aps-option" data-aps-value="true" data-aps-goto="recap" href="javascript:void(0);">Yes</a><a class="uw-btn aps-option" data-aps-value="false" data-aps-goto="recap" href="javascript:void(0);">No</a>
+		<a role="button" class="uw-btn aps-option" data-aps-value="true" data-aps-goto="recap" href="javascript:void(0);">Yes</a><a role="button" class="uw-btn aps-option" data-aps-value="false" data-aps-goto="recap" href="javascript:void(0);">No</a>
 
 	</div><!-- Slide aca d -->
 
-	<div class="slide academic" id="aps-aca-e" data-aps-slide="cost" data-aps-input="true">
+	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-aca-e" data-aps-slide="cost" data-aps-input="true">
 		
 		<form class="aps-form" id="form-cost" >
 			<h3>Provide some financial information about your project or acquisition:</h3>
@@ -144,13 +144,13 @@
 			</div>
 			</p>
 			<div class="field">
-				<a class="uw-btn aps-option required" data-aps-goto="aps-aca-f" href="javascript:void(0);">Submit</a>
+				<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-aca-f" href="javascript:void(0);">Submit</a>
 			</div>
 		</form>
 
 	</div><!-- Slide aca e -->
 
-	<div class="slide academic" id="aps-aca-f" data-aps-slide="multi" data-aps-input="true">
+	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-aca-f" data-aps-slide="multi" data-aps-input="true">
 		<form class="aps-form" id="form-multi" >
 			
 			<h3>Will more than one department be affected by your project or acquisition?</h3>
@@ -161,11 +161,11 @@
 				<textarea name="description" id="description" rows="7" cols="80" style="font-size: 0.9em;"></textarea>
 			</div>
 			
-			<a class="uw-btn aps-option required" data-aps-goto="aps-aca-g" href="javascript:void(0);">Submit</a><a class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-aca-g" href="javascript:void(0);">Doesn't apply</a>
+			<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-aca-g" href="javascript:void(0);">Submit</a><a role="button" class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-aca-g" href="javascript:void(0);">Doesn't apply</a>
 		</form>
 	</div><!-- Slide aca f -->
 
-	<div class="slide academic" id="aps-aca-g" data-aps-slide="central" data-aps-input="true">
+	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-aca-g" data-aps-slide="central" data-aps-input="true">
 		<form class="aps-form" id="form-central" >
 			<h3>Does your project or acquisition require central administrative computing services or resources?</h3>
 
@@ -175,11 +175,11 @@
 				<textarea name="description" id="description" rows="7" cols="80" style="font-size: 0.9em;"></textarea>
 			</div>
 			
-			<a class="uw-btn aps-option required" data-aps-goto="aps-aca-h" href="javascript:void(0);">Submit</a><a class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-aca-h" href="javascript:void(0);">Doesn't apply</a>
+			<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-aca-h" href="javascript:void(0);">Submit</a><a role="button" class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-aca-h" href="javascript:void(0);">Doesn't apply</a>
 		</form>
 	</div><!-- Slide aca g -->
 
-	<div class="slide academic" id="aps-aca-h" data-aps-slide="duration" data-aps-input="true">
+	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-aca-h" data-aps-slide="duration" data-aps-input="true">
 		<form class="aps-form" id="form-duration" >
 			<h3>How long will your project or acquisition take?</h3>
 
@@ -194,14 +194,14 @@
 				</select>
 			</div>
 			<br />
-			<a class="uw-btn aps-option" data-aps-goto="recap" href="javascript:void(0);">Submit</a>
+			<a role="button" class="uw-btn aps-option" data-aps-goto="recap" href="javascript:void(0);">Submit</a>
 		</form>
 	</div><!-- Slide aca h -->
 
 	<!-- END ACADEMIC SLIDES **************************************************************************** -->
 	<!-- MEDICAL SLIDES ********************************************************************************* -->
 
-	<div class="slide medical" id="aps-med-a">
+	<div aria-label="slide" aria-hidden="true" class="slide medical" id="aps-med-a">
 		<h3>Requirements for this type of project cannot be determined using this application.</h3>
 		<p>Your project or acquisition is subject to a memorandum of understanding with the VP for UW-IT and CIO.</p>
 		<p>Please reach out to UW Medicine IT Services at <a href="mailto:projreq@uw.edu">projreq@uw.edu</a> to initiate the process.</a></p>
@@ -210,7 +210,7 @@
 	<!-- END MEDICAL SLIDES ***************************************************************************** -->
 	<!-- NON-EXEMPT SLIDES ****************************************************************************** -->
 
-	<div class="slide academic" id="aps-non-basics" data-aps-slide="basics" data-aps-input="true">
+	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-non-basics" data-aps-slide="basics" data-aps-input="true">
 
 		<h3>Let's start off with some basics</h3>
 
@@ -234,13 +234,13 @@
 				<textarea name="description" id="description" rows="5" cols="80" style="font-size: 0.9em;"></textarea>
 			</div>
 			<div class="field">
-				<a class="uw-btn aps-option required" data-aps-goto="aps-non-a" href="javascript:void(0);">Submit</a>
+				<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-non-a" href="javascript:void(0);">Submit</a>
 			</div>
 		</form>
 
 	</div><!-- Slide aca basics -->
 
-	<div class="slide non" id="aps-non-a" data-aps-slide="level">
+	<div aria-label="slide" aria-hidden="true" class="slide non" id="aps-non-a" data-aps-slide="level">
 		<h3>Please complete the Risk and Severity calculator</h3>
 
 		<p>You'll need to complete a Risk and Severity Assessment using a calculator on the Washington State Office of the Chief Information Officer's (OCIO) web site. Clicking the button below will open a popup containing the calculator.</p>
@@ -259,10 +259,10 @@
 		</div></div>
 		<!-- End popover -->
 
-		<a class="uw-btn aps-option" data-aps-value="1" data-aps-goto="aps-non-b" href="javascript:void(0);">Level 1</a><a class="uw-btn aps-option" data-aps-value="2" data-aps-goto="aps-non-c" href="javascript:void(0);">Level 2</a><a class="uw-btn aps-option" data-aps-value="3" data-aps-goto="aps-non-c" href="javascript:void(0);">Level 3</a>
+		<a role="button" class="uw-btn aps-option" data-aps-value="1" data-aps-goto="aps-non-b" href="javascript:void(0);">Level 1</a><a role="button" class="uw-btn aps-option" data-aps-value="2" data-aps-goto="aps-non-c" href="javascript:void(0);">Level 2</a><a role="button" class="uw-btn aps-option" data-aps-value="3" data-aps-goto="aps-non-c" href="javascript:void(0);">Level 3</a>
 	</div><!-- Slide non a -->
 
-	<div class="slide non" id="aps-non-b" data-aps-slide="highcost">
+	<div aria-label="slide" aria-hidden="true" class="slide non" id="aps-non-b" data-aps-slide="highcost">
 
 		<h3>Does your project or acquisition have a high project cost or ongoing operatoins cost?</h3>
 
@@ -270,11 +270,11 @@
 
 		<p>You can use the <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/project-investment-cost.pdf" target="_blank">project cost</a> and <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/ongoing-operations-cost.pdf" target="_blank">ongoing operatoins cost</a> worksheets to estimate the cost of your project or acquisition. 
 		
-		<a class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-non-d" href="javascript:void(0);">Yes</a><a class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-non-d" href="javascript:void(0);">No</a>
+		<a role="button" class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-non-d" href="javascript:void(0);">Yes</a><a role="button" class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-non-d" href="javascript:void(0);">No</a>
 		
 	</div><!-- Slide non b -->
 
-	<div class="slide non" id="aps-non-c" data-aps-slide="cost" data-aps-input="true">
+	<div aria-label="slide" aria-hidden="true" class="slide non" id="aps-non-c" data-aps-slide="cost" data-aps-input="true">
 		
 		<form class="aps-form" id="form-cost" >
 			<h3>Provide some financial information about your project or acquisition:</h3>
@@ -292,13 +292,13 @@
 			</div>
 			</p>
 			<div class="field">
-				<a class="uw-btn aps-option required" data-aps-goto="aps-non-d" href="javascript:void(0);">Submit</a>
+				<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-non-d" href="javascript:void(0);">Submit</a>
 			</div>
 		</form>
 
 	</div><!-- Slide aca c -->
 
-	<div class="slide non" id="aps-non-d" data-aps-slide="multi" data-aps-input="true">
+	<div aria-label="slide" aria-hidden="true" class="slide non" id="aps-non-d" data-aps-slide="multi" data-aps-input="true">
 
 		<form class="aps-form" id="form-multi" >
 			<h3>Will more than one department be affected by your project or acquisition?</h3>
@@ -311,12 +311,12 @@
 				<textarea name="description" id="description" rows="7" cols="80" style="font-size: 0.9em;"></textarea>
 			</div>
 			
-			<a class="uw-btn aps-option required" data-aps-goto="aps-non-e" href="javascript:void(0);">Submit</a><a class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-non-e" href="javascript:void(0);">Doesn't apply</a>
+			<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-non-e" href="javascript:void(0);">Submit</a><a role="button" class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-non-e" href="javascript:void(0);">Doesn't apply</a>
 		</form>
 		
 	</div><!-- Slide non d -->
 
-	<div class="slide non" id="aps-non-e" data-aps-slide="central" data-aps-input="true">
+	<div aria-label="slide" aria-hidden="true" class="slide non" id="aps-non-e" data-aps-slide="central" data-aps-input="true">
 
 		<form class="aps-form" id="form-central" >
 			<h3>Will your project or acquisition use central administrative computing services or resources?</h3>
@@ -329,12 +329,12 @@
 				<textarea name="description" id="description" rows="7" cols="80" style="font-size: 0.9em;"></textarea>
 			</div>
 			
-			<a class="uw-btn aps-option required" data-aps-goto="aps-non-f" href="javascript:void(0);">Submit</a><a class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-non-f" href="javascript:void(0);">Doesn't apply</a>
+			<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-non-f" href="javascript:void(0);">Submit</a><a role="button" class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-non-f" href="javascript:void(0);">Doesn't apply</a>
 		</form>
 		
 	</div><!-- Slide non e -->
 
-	<div class="slide non" id="aps-non-f" data-aps-slide="duration" data-aps-input="true">
+	<div aria-label="slide" aria-hidden="true" class="slide non" id="aps-non-f" data-aps-slide="duration" data-aps-input="true">
 		<form class="aps-form" id="form-duration" >
 			<h3>How long will your project or acquisition take?</h3>
 
@@ -349,14 +349,14 @@
 				</select>
 			</div>
 			<br />
-			<a class="uw-btn aps-option" data-aps-goto="recap" href="javascript:void(0);">Submit</a>
+			<a role="button" class="uw-btn aps-option" data-aps-goto="recap" href="javascript:void(0);">Submit</a>
 		</form>
 	</div><!-- Slide non f-->
 
 	<!-- END NON-EXEMPT SLIDES ***************************************************************************-->
 	<!-- RECAP SLIDES ************************************************************************************ -->
 
-	<div class="slide" id="recap" data-aps-slide="recap">
+	<div aria-label="slide" aria-hidden="true" class="slide" id="recap" data-aps-slide="recap">
 	
 	<!-- ACADEMIC RECAPS -->
 		<div class="recap" id="aca-basics"></div>
