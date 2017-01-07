@@ -108,6 +108,8 @@
 			$('.aps .slide').each(function(){
 				$(this).fadeOut(400);
 			});
+			console.log(APS.storedData['currentSlide']);
+			$('#' + APS.storedData['currentSlide']).attr('aria-hidden', 'true');
 			
 			// Update the change in slide in storage / localstorage (if not restart or splash)
 			if (slide != 'aps-restart' && slide != 'aps-0') {
@@ -128,8 +130,6 @@
 			}
 
 			$('#' + slide).fadeIn(400);
-			console.log(APS.storedData['lastSlide']);
-			$('#' + APS.storedData['lastSlide']).attr('aria-hidden', 'true');
 			$('#' + slide).attr('aria-hidden', 'flase');
 		},
 		createStorage: function() {
