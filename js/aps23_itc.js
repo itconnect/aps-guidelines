@@ -1,7 +1,7 @@
 (function(){
 	APS = {
 		'storedData': {
-			'currentSlide':'aps-0'
+			'ariaSlide':'aps-0'
 		},
 		addListeners: function () {
 			// Listen for initilization
@@ -108,8 +108,8 @@
 			$('.aps .slide').each(function(){
 				$(this).fadeOut(400);
 			});
-			console.log(APS.storedData['currentSlide']);
-			$('#' + APS.storedData['currentSlide']).attr('aria-hidden', 'true');
+			$('#' + APS.storedData['ariaSlide']).attr('aria-hidden', 'true');
+			APS.storedData['ariaSlide'] = slide;
 			
 			// Update the change in slide in storage / localstorage (if not restart or splash)
 			if (slide != 'aps-restart' && slide != 'aps-0') {
