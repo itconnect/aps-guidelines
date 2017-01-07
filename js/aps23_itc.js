@@ -128,6 +128,7 @@
 			}
 
 			$('#' + slide).fadeIn(400);
+			console.log(APS.storedData['lastSlide']);
 			$('#' + APS.storedData['lastSlide']).attr('aria-hidden', 'true');
 			$('#' + slide).attr('aria-hidden', 'flase');
 		},
