@@ -1,7 +1,7 @@
 (function(){
 	APS = {
 		'storedData': {
-			'currentSlide':'intro'
+			'currentSlide':'aps-0'
 		},
 		addListeners: function () {
 			// Listen for initilization
