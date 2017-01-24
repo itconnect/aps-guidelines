@@ -107,11 +107,11 @@
 	</div><!-- Slide aca b -->
 
 	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-aca-c" data-aps-slide="highcost">
-		<h3>Does your project or acquisition have a high project cost or ongoing operatoins cost?</h3>
+		<h3>Does your project or acquisition have a high project cost or ongoing operations cost?</h3>
 
-		<p>Projects or acquisitions with an <i>project cost</i> of <b>$1 million or more</b>, or with an estimated <i>five-year ongoing operatoins cost</i> of <b>$2.5 million or more</b>, are considered to have a high cost.</p>
+		<p>Projects or acquisitions with an <i>project cost</i> of <b>$1 million or more</b>, or with an estimated <i>five-year ongoing operations cost</i> of <b>$2.5 million or more</b>, are considered to have a high cost.</p>
 
-		<p>You can use the <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/project-investment-cost.pdf" target="_blank">project cost</a> and <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/ongoing-operations-cost.pdf" target="_blank">ongoing operatoins cost</a> worksheets to estimate the cost of your project or acquisition. 
+		<p>You can use the <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/project-investment-cost.pdf" target="_blank">project cost</a> and <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/ongoing-operations-cost.pdf" target="_blank">ongoing operations cost</a> worksheets to estimate the cost of your project or acquisition. 
 		
 		<a role="button" class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-aca-d" href="javascript:void(0);">Yes</a><a role="button" class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-aca-d" href="javascript:void(0);">No</a>
 
@@ -137,9 +137,9 @@
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="initial_investment" id="initial_investment" required>
 			</div>
 			</p>
-			<p>What is the estimated five-year ongoing operatoins cost of your project or acquisition? <a class="aps-moreinfo" data-href="https://itconnect.uw.edu/wp-content/uploads/2016/12/ongoing-operations-cost.pdf" target="_blank">ongoing operatoins cost worksheet</a><br />
+			<p>What is the estimated five-year ongoing operations cost of your project or acquisition? <a class="aps-moreinfo" data-href="https://itconnect.uw.edu/wp-content/uploads/2016/12/ongoing-operations-cost.pdf" target="_blank">ongoing operations cost worksheet</a><br />
 			<div class="field">
-				<label for="system_life">Ongoing operatoins cost:</label>
+				<label for="system_life">Ongoing operations cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="system_life" id="system_life" required="required" />
 			</div>
 			</p>
@@ -264,11 +264,11 @@
 
 	<div aria-label="slide" aria-hidden="true" class="slide non" id="aps-non-b" data-aps-slide="highcost">
 
-		<h3>Does your project or acquisition have a high project cost or ongoing operatoins cost?</h3>
+		<h3>Does your project or acquisition have a high project cost or ongoing operations cost?</h3>
 
-		<p>Projects or acquisitions with an <i>project cost</i> of <b>$1 million or more</b>, or with an estimated <i>five-year ongoing operatoins cost</i> of <b>$2.5 million or more</b>, are considered to have a high cost.</p>
+		<p>Projects or acquisitions with an <i>project cost</i> of <b>$1 million or more</b>, or with an estimated <i>five-year ongoing operations cost</i> of <b>$2.5 million or more</b>, are considered to have a high cost.</p>
 
-		<p>You can use the <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/project-investment-cost.pdf" target="_blank">project cost</a> and <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/ongoing-operations-cost.pdf" target="_blank">ongoing operatoins cost</a> worksheets to estimate the cost of your project or acquisition. 
+		<p>You can use the <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/project-investment-cost.pdf" target="_blank">project cost</a> and <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/ongoing-operations-cost.pdf" target="_blank">ongoing operations cost</a> worksheets to estimate the cost of your project or acquisition. 
 		
 		<a role="button" class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-non-d" href="javascript:void(0);">Yes</a><a role="button" class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-non-d" href="javascript:void(0);">No</a>
 		
@@ -285,9 +285,9 @@
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="initial_investment" id="initial_investment" required>
 			</div>
 			</p>
-			<p>What is the estimated five-year ongoing operatoins cost of your project or acquisition? <a class="aps-moreinfo" data-fhref="https://itconnect.uw.edu/wp-content/uploads/2016/12/ongoing-operations-cost.pdf" target="_blank">ongoing operatoins cost worksheet</a><br />
+			<p>What is the estimated five-year ongoing operations cost of your project or acquisition? <a class="aps-moreinfo" data-fhref="https://itconnect.uw.edu/wp-content/uploads/2016/12/ongoing-operations-cost.pdf" target="_blank">ongoing operations cost worksheet</a><br />
 			<div class="field">
-				<label for="system_life">Ongoing operatoins cost:</label>
+				<label for="system_life">Ongoing operations cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="system_life" id="system_life" required="required" />
 			</div>
 			</p>
@@ -455,7 +455,7 @@
 
 				<li><b>Total project cost:</b> $<span id="recap-investment"></span></li>
 
-				<li><b>Five-year ongoing operatoins cost:</b> $<span id="recap-5yr"></span></li>
+				<li><b>Five-year ongoing operations cost:</b> $<span id="recap-5yr"></span></li>
 
 				<li>The project will affect multiple departments in the following way:<div id="recap-multi"></div></li>
 

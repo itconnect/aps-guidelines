@@ -70,6 +70,10 @@
 	display: none;
 }
 
+.featherlight .featherlight-content {
+	background: #fff !important;
+}
+
 /* Intro slide */
 .aps .splash.tagline {
 	color: #444;
