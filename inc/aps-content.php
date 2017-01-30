@@ -7,14 +7,14 @@
 		<h2 class="splash title">University of Washington</h2>
 		<span class="splash tagline">Information Technology (IT) Project &amp; Acquisitions Procedure</span></h2>
 
-		<p>All University of Washington (UW) technology projects and acquisitions are governed by the UW's Policy on Information Technology, Telecommunications and Networking Projects and Acquisitions (abbreviated APS 2.3). Certain processes and approvals may by required, depending on the type and size of the technology expenditures you need to make.<br /><br />These webpages help you determine what approvals and other processes are required under APS 2.3.<br /><br /><b>Before you begin:</b> Contact your internal department administrator to determine how the department handles new IT projects.</p>
+		<p>All University of Washington (UW) technology projects and acquisitions are governed by the UW's Policy on Information Technology, Telecommunications and Networking Projects and Acquisitions (abbreviated APS 2.3). Certain processes and approvals may be required, depending on the type and size of the technology expenditures you need to make.<br /><br />These web pages help you determine what approvals and other processes are required under APS 2.3.<br /><br /><b>Before you begin:</b> Contact your internal department administrator to determine how the department handles new IT projects.</p>
 
 		<a role="button" class="uw-btn aps-init" data-aps-goto="aps-1" href="javascript:void(0);">Let's Get Started</a>
 	</div><!-- Slide 0 -->
 
 	<div aria-label="slide" aria-hidden="true" class="slide" id="aps-restart">
 		<h3>It appears you've previously started or completed this process.</h3>
-		<p>Would you like to start this process for a new project or acquisition, or continue from where you left off before? If you start over, all data stored in your browsers memory from previous projects will be permanently deleted.</p>
+		<p>Would you like to start this process for a new project or acquisition, or continue from where you left off before? If you start over, all data stored in your browser's memory from previous projects will be permanently deleted.</p>
 		<a role="button" class="uw-btn aps-restart" data-aps-restart="yes" href="javascript:void(0);">Start over</a><a role="button" class="uw-btn aps-restart" data-aps-restart="no" href="javascript:void(0);">Continue from where I left off</a>
 	</div><!-- Slide restart -->
 
@@ -373,7 +373,7 @@
 
 			<p>Your department is responsible for following all institutional procurement and stewardship practices, and for seeing that the project is successfully completed.</p>
 
-			<p>Your department is to maintain a record to document all of the above if it is requested in a future audit. You may print a copy of this information, or save a screen shot for the department record.</p>
+			<p>Your department is to maintain a record to document all of the above if it is requested in a future audit. You may print a copy of this information, or save a screenshot for the department record.</p>
 
 			<p style="color: #4b2e83; font-weight: bold;">Please save or print this page for your records.</p>
 		</div>
@@ -394,7 +394,7 @@
 
 			<p>Your department is responsible for following all institutional procurement and stewardship practices, and for seeing that the project is successfully completed. This includes coordinating with the other departments as necessary to ensure satisfactory results.</p>
 
-			<p>Your department is to maintain a record to document all of the above if it is requested in a future audit. You may print a copy of this information, or save a screen shot for the department record.</p>
+			<p>Your department is to maintain a record to document all of the above if it is requested in a future audit. You may print a copy of this information, or save a screenshot for the department record.</p>
 
 			<p style="color: #4b2e83; font-weight: bold;">Please save or print this page for your records.</p>
 		</div>
@@ -415,7 +415,7 @@
 
 			<p>Your department is responsible for following all institutional procurement and stewardship practices, and for seeing that the project is successfully completed.</p>
 
-			<p>Your department is to maintain a record to document all of the above if it is requested in a future audit. You may print a copy of this information, or save a screen shot for the department record.</p>
+			<p>Your department is to maintain a record to document all of the above if it is requested in a future audit. You may print a copy of this information, or save a screenshot for the department record.</p>
 
 			<p style="color: #4b2e83; font-weight: bold;">Please save or print this page for your records.</p>
 		</div>
@@ -428,7 +428,7 @@
 
 				<li>The project cost is greater than $1 million, the ongoing operations costs will be greater than $2.5 million, or both.</li>
 
-				<li>Other departments will be using the system, or you require tthe use of central administrative computing services or resources.</li>
+				<li>Other departments will be using the system, or you require the use of central administrative computing services or resources.</li>
 
 				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website.</li>
 			</ul>
@@ -436,7 +436,7 @@
 
 			<p>Your department is responsible for following all institutional procurement and stewardship practices, and for seeing that the project is successfully completed. This includes coordinating with the other departments as necessary to ensure satisfactory results.</p>
 
-			<p>Your department is to maintain a record to document all of the above if it is requested in a future audit. You may print a copy of this information, or save a screen shot for the department record.</p>
+			<p>Your department is to maintain a record to document all of the above if it is requested in a future audit. You may print a copy of this information, or save a screenshot for the department record.</p>
 
 			<p style="color: #4b2e83; font-weight: bold;">Please save or print this page for your records.</p>
 		</div>
@@ -446,7 +446,7 @@
 
 			<div class="basics-wrap"></div>
 
-			<p>Your planned technology acquisition is for an academic use in instruction, research, or other scholarly activity; itis not for administrative records or business operations use.</p>
+			<p>Your planned technology acquisition is for an academic use in instruction, research, or other scholarly activity; it is not for administrative records or business operations use.</p>
 
 			<h4>A summary of the information about your project</h4>
 
@@ -517,7 +517,7 @@
 
 				<p>Your department is responsible for providing project oversight and quality assurance to ensure the project remains on schedule, and is within its approved budget and scope. <b>Any significant changes require you to reassess the oversight level and project costs to validate that it still qualifies for this Small Project Exemption.</b></p>
 
-				<p>Your department is to maintain documentation of all of the above in case it is requested in a future audit. You may print a copy of this information, or save a screen shot for the department record.</p>
+				<p>Your department is to maintain documentation of all of the above in case it is requested in a future audit. You may print a copy of this information, or save a screenshot for the department record.</p>
 
 				<p style="color: #4b2e83; font-weight: bold;">Please save or print this page for your records.</p>
 			</div>
@@ -583,11 +583,11 @@
 			 
 			<p>After OCIO approves the Concept and related materials and gives an OK to proceed with acquisition steps, your department will work with Procurement for appropriate process (RFI, RFP, sole source).</p>
 			 
-			<p>This is also the time to determine acquisition method for external Quality Assurance consulting services; note that State of Washtingon OCIO requests to be involved in that selection process, and encourages that project QA consultants conduct both readiness assessment and planning activities prior to selection of successful vendor and award of contracts.</p>
+			<p>This is also the time to determine acquisition method for external Quality Assurance consulting services; note that State of Washington OCIO requests to be involved in that selection process, and encourages that project QA consultants conduct both readiness assessment and planning activities prior to selection of successful vendor and award of contracts.</p>
 			 
 			<p>Draft an Investment Plan document based in large part on the Concept Briefing document&mdash;some sections will be blank (budget and schedule) until vendor proposals are received and an apparent successful vendor is identified.</p>
 			 
-			<p>State of Washingon OCIO approval is required before UW may award contracts for the project.</p>
+			<p>State of Washington OCIO approval is required before UW may award contracts for the project.</p>
 			 
 			 
 			<h4>Stage 3 – Approval to launch project</h4>
