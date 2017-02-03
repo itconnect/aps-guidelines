@@ -371,7 +371,7 @@
 				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website.</li>
 			</ul>
 
-			<p>Your department is responsible for following all institutional procurement and stewardship practices, and for seeing that the project is successfully completed.</p>
+			<p>Your department is responsible for following all institutional procurement and <a href="/work/investment-procedure/stewardship-guidelines/" target="_blank">stewardship guidelines</a>, and for seeing that the project is successfully completed.</p>
 
 			<p>Your department is to maintain a record to document all of the above if it is requested in a future audit. You may print a copy of this information, or save a screenshot for the department record.</p>
 
@@ -392,7 +392,7 @@
 			</ul>
 			<p>Prior approval is required for use of central administrative computing services or resources. Contact UW-IT at <a href="mailto:help@uw.edu?subject=APS 2.3 request">help@uw.edu</a> to ensure your requested needs can be addressed on the schedule you want to follow.</p>
 
-			<p>Your department is responsible for following all institutional procurement and stewardship practices, and for seeing that the project is successfully completed. This includes coordinating with the other departments as necessary to ensure satisfactory results.</p>
+			<p>Your department is responsible for following all institutional procurement and <a href="/work/investment-procedure/stewardship-guidelines/" target="_blank">stewardship guidelines</a>, and for seeing that the project is successfully completed. This includes coordinating with the other departments as necessary to ensure satisfactory results.</p>
 
 			<p>Your department is to maintain a record to document all of the above if it is requested in a future audit. You may print a copy of this information, or save a screenshot for the department record.</p>
 
@@ -413,7 +413,7 @@
 			</ul>
 			<p>Submit your recap of project costs and ongoing operations costs, along with level 1 oversight calculation, to UW-IT via <a href="mailto:help@uw.edu?subject=APS 2.3 request">help@uw.edu</a> for review and concurrence by the VP for UW-IT and CIO.</p>
 
-			<p>Your department is responsible for following all institutional procurement and stewardship practices, and for seeing that the project is successfully completed.</p>
+			<p>Your department is responsible for following all institutional procurement and <a href="/work/investment-procedure/stewardship-guidelines/" target="_blank">stewardship guidelines</a>, and for seeing that the project is successfully completed.</p>
 
 			<p>Your department is to maintain a record to document all of the above if it is requested in a future audit. You may print a copy of this information, or save a screenshot for the department record.</p>
 
@@ -434,7 +434,7 @@
 			</ul>
 			<p>Submit your recap of project cost and ongoing operation costs, along with level 1 oversight calculation, to UW-IT via <a href="mailto:help@uw.edu?subject=APS 2.3 request">help@uw.edu</a> for review and concurrence by the VP for UW-IT and CIO.</p>
 
-			<p>Your department is responsible for following all institutional procurement and stewardship practices, and for seeing that the project is successfully completed. This includes coordinating with the other departments as necessary to ensure satisfactory results.</p>
+			<p>Your department is responsible for following all institutional procurement and <a href="/work/investment-procedure/stewardship-guidelines/" target="_blank">stewardship guidelines</a>, and for seeing that the project is successfully completed. This includes coordinating with the other departments as necessary to ensure satisfactory results.</p>
 
 			<p>Your department is to maintain a record to document all of the above if it is requested in a future audit. You may print a copy of this information, or save a screenshot for the department record.</p>
 
@@ -482,7 +482,7 @@
 
 			<p>Once your project is approved by the VP for UW-IT and CIO, your department will be responsible for:</p>
 			<ul>
-				<li>Following all institutional procurement and stewardship practices</li>
+				<li>Following all institutional procurement and <a href="/work/investment-procedure/stewardship-guidelines/" target="_blank">stewardship guidelines</a></li>
 				<li>Project progress reporting and management oversight</li>
 				<li>If the project will take more than 12 months, submitting quarterly progress reports to VP for UW-IT and CIO</li>
 			</ul>
@@ -513,7 +513,7 @@
 			</ul>
 
 			<div id="recap-non-short">
-				<p>Your department is responsible for following all institutional procurement and stewardship practices and for seeing that the project is successfully completed.</p>
+				<p>Your department is responsible for following all institutional procurement and <a href="/work/investment-procedure/stewardship-guidelines/" target="_blank">stewardship guidelines</a> and for seeing that the project is successfully completed.</p>
 
 				<p>Your department is responsible for providing project oversight and quality assurance to ensure the project remains on schedule, and is within its approved budget and scope. <b>Any significant changes require you to reassess the oversight level and project costs to validate that it still qualifies for this Small Project Exemption.</b></p>
 
@@ -542,7 +542,7 @@
 				<p>Once your project is approved by the VP for UW-IT and CIO, your department will be responsible for:</p>
 
 				<ul>
-					<li>Following all institutional procurement and stewardship practices</li>
+					<li>Following all institutional procurement and <a href="/work/investment-procedure/stewardship-guidelines/" target="_blank">stewardship guidelines</a></li>
 					<li>Project progress reporting and management oversight</li>
 				</ul>
 
