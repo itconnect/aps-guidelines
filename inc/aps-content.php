@@ -7,7 +7,7 @@
 		<h2 class="splash title">University of Washington</h2>
 		<span class="splash tagline">Information Technology (IT) Project &amp; Acquisitions Procedure</span></h2>
 
-		<p>All University of Washington (UW) technology projects and acquisitions are governed by the UW's Policy on Information Technology, Telecommunications and Networking Projects and Acquisitions (abbreviated APS 2.3). Certain processes and approvals may be required, depending on the type and size of the technology expenditures you need to make.<br /><br />These web pages help you determine what approvals and other processes are required under APS 2.3.<br /><br /><b>Before you begin:</b> Contact your internal department administrator to determine how the department handles new IT projects.</p>
+		<p>All University of Washington (UW) technology projects and acquisitions are governed by the UW's Policy on Information Technology, Telecommunications and Networking Projects and Acquisitions (abbreviated APS 2.3). Certain processes and approvals may be required, depending on the type and size of the technology expenditures you need to make.<br /><br />These web pages help you determine what approvals and other processes are required under APS 2.3.<br /><br /><b>Before you begin:</b> Contact your internal department administrator to determine how your department handles new IT projects.</p>
 
 		<a role="button" class="uw-btn aps-init" data-aps-goto="aps-1" href="javascript:void(0);">Let's Get Started</a>
 	</div><!-- Slide 0 -->
@@ -26,13 +26,13 @@
 		<div class="hidden"><div id="more-aca" class="more-info">The following acquisitions and IT system projects are examples that <u>do not qualify</u> for an Academic Exemption: administrative, business, financial, billing, payroll, personnel, budget, student record, student billing, inventory, scheduling, document imaging or management, project management, facilities management, customer relationship management, point of sale.</div></div></p>
 		<!-- End popover -->
 
-		<p>Medical projects or acquisitions are for UW Medicine IT Services or for use within one of the UW medical centers or clinics, and are limited to medical, clinical, or health care applications under management of UW Medicine.</p>
+		<p>Medical projects or acquisitions are for UW Medicine IT Services or for use within one of the UW medical centers or clinics, and are limited to medical, clinical or health care applications under UW Medicine management.</p>
 
 		<!-- Popover lightbox content -->
 		<div class="hidden"><div id="more-med" class="more-info">More information blurb for Medically exempt projects or acquisitions...</div></div>
 		<!-- End popover -->
 
-		<p>If your project or acquisition doesn't meet the criteria for either academic or medical, select "Everything else"</p>
+		<p>If your project or acquisition doesn't meet the criteria for either academic or medical, select "Everything Else" below.</p>
 
 		<a role="button" class="uw-btn aps-option" data-aps-branch="aca" data-aps-goto="aps-aca-a" href="javascript:void(0);">Academic</a><a role="button" class="uw-btn aps-option" data-aps-branch="med" data-aps-goto="aps-med-a" href="javascript:void(0);">Medical</a><a role="button" class="uw-btn aps-option" data-aps-branch="non" data-aps-goto="aps-non-basics" href="javascript:void(0);">Everything else</a>
 	</div><!-- Slide 1 -->
@@ -43,11 +43,30 @@
 	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-aca-a" data-aps-slide="academic">
 		<h3>Your project or acquisition is for academic purposes.</h3>
 
-		<p>Your project or acquisition is for use in instruction, scholarship or research purposes, but not for use by the business or administrative operations that support them.</p>
+		<p>Academic projects or acquisitions are for use in instruction, scholarship or research purposes, but not for use by the business or administrative operations that support them.</p>
 
-		<p>Business and administrative operations that support academics can include the following, and <u>do not qualify</u> for an Academic Exemption: administrative, billing,business, budget, customer relationship management, document imaging or management, facilities management, financial, inventory, payroll, personnel, point of sale, project management, scheduling, student billing, and student records.</p>
+		<p>Business and administrative operations that support academics can include the following, and <u>do not qualify</u> for an Academic Exemption: </p>
 
-		<p>With that in mind, can you confirm your project or acquisition meets the criteria for Academic Exemption?</p>
+		<ul>
+			<li>Administrative</li>
+			<li>Billing</li>
+			<li>Business</li>
+			<li>Budget</li>
+			<li>Customer relationship management</li>
+			<li>Document imaging or management</li>
+			<li>Facilities management</li>
+			<li>Financial</li>
+			<li>Inventory</li>
+			<li>Payroll</li>
+			<li>Personnel</li>
+			<li>Point of sale</li>
+			<li>Project management</li>
+			<li>Scheduling</li>
+			<li>Student billing</li>
+			<li>Student records</li>
+		</ul>
+
+		<p>Can you confirm your project or acquisition meets the criteria for Academic Exemption?</p>
 
 		<a role="button" class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-aca-basics" href="javascript:void(0);">Confirm</a><a role="button" class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-1" href="javascript:void(0);">Go back</a>
 
@@ -55,9 +74,9 @@
 
 	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-aca-basics" data-aps-slide="basics" data-aps-input="true">
 
-		<h3>Let's start off with some basics</h3>
+		<h3>Let's start with some basics</h3>
 
-		<p>We'll need to know a little bit about your project or acquisition. In the fields below, please provide your name, department, a short title for your project or acquisition, and a brief, high-level description.</p>
+		<p>We'll need to know a little about your project or acquisition. In the fields below, please provide your name, department, a short title for your project or acquisition, and a brief, high-level description.</p>
 
 		<form class="aps-form" id="form-aca-basics" >
 			<div class="field">
@@ -86,16 +105,16 @@
 	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-aca-b" data-aps-slide="level">
 		<h3>Please complete the Risk and Severity Assessment</h3>
 
-		<p>You'll need to complete a Risk and Severity Assessment using a calculator on the Washington State Office of the Chief Information Officer's (OCIO) web site. Clicking the button below will open a popup containing the calculator.</p>
+		<p>You'll need to complete a Risk and Severity Assessment using a calculator on the Washington State Office of the Chief Information Officer's (OCIO) web site. Click the button below to open a popup with the calculator.</p>
 
-		<p>Once you've finished the assessment, <span style="color: #4b2e83; font-weight: bold;">save or print</span> the results for use later, and select the appropriate level of oversight below.</p>
+		<p>Once you've finished the assessment, <span style="color: #4b2e83; font-weight: bold;">save or print</span> the results for use later. The calculator will provide a level of oversight; select the appropriate level below.</p>
 		<br />
 		<a href="javascript:void(0);" class="uw-btn cio-assessment">Take the assessment</a>
 		<br /><br />
-		<p>According to the calculator, what is the <b>overall project oversight level</b> required? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">How do I find this?</a></p>
+		<p>According to the calculator, what is the <b>olevel of project oversight</b> required? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">How do I find this?</a></p>
 
 		<!-- Popover lightbox content -->
-		<div class="hidden"><div id="more-cio" class="more-info">After completing the assessment on the WA CIO website, results will be displayed on the screen. Near the top, you'll find the overall project oversight level. The location is highlighted in pink below.
+		<div class="hidden"><div id="more-cio" class="more-info">After completing the assessment on the WA CIO website, results will be displayed on the screen. Near the top, you'll find the level of project oversight required. The location is highlighted in pink below.
 		<br /><br />
 		<img src="https://itconnect.uw.edu/wp-content/uploads/2016/09/cio-oversight-example.gif" width="500" height="283" alt="Example of CIO web site overall project oversight level location." />
 
@@ -111,7 +130,7 @@
 
 		<p>Projects or acquisitions with an <i>project cost</i> of <b>$1 million or more</b>, or with an estimated <i>five-year ongoing operations cost</i> of <b>$2.5 million or more</b>, are considered to have a high cost.</p>
 
-		<p>You can use the <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/project-investment-cost.pdf" target="_blank">project cost</a> and <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/ongoing-operations-cost.pdf" target="_blank">ongoing operations cost</a> worksheets to estimate the cost of your project or acquisition. 
+		<p>You can use the <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2017/02/project-investment-cost.pdf" target="_blank">project cost</a> and <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2017/02/ongoing-operations-cost.pdf" target="_blank">ongoing operations cost</a> worksheets to estimate the cost of your project or acquisition. 
 		
 		<a role="button" class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-aca-d" href="javascript:void(0);">Yes</a><a role="button" class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-aca-d" href="javascript:void(0);">No</a>
 
@@ -130,14 +149,14 @@
 		
 		<form class="aps-form" id="form-cost" >
 			<h3>Provide some financial information about your project or acquisition:</h3>
-			<p>The financial information provided will help determine your required level of oversight. Use the linked worksheets if you are unsure of the costs.</p>
-			<p>What is the estimated project cost of your project or acquisition? <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/project-investment-cost.pdf" target="_blank">project cost worksheet</a><br />
+			<p>The financial information you provide will help determine your required level of oversight. Use the linked worksheets to calculate costs.</p>
+			<p>What is the estimated project cost of your project or acquisition? <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2017/02/project-investment-cost.pdf" target="_blank">project cost worksheet</a><br />
 			<div class="field">
 				<label for="initial_investment">Project cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="initial_investment" id="initial_investment" required>
 			</div>
 			</p>
-			<p>What is the estimated five-year ongoing operations cost of your project or acquisition? <a class="aps-moreinfo" data-href="https://itconnect.uw.edu/wp-content/uploads/2016/12/ongoing-operations-cost.pdf" target="_blank">ongoing operations cost worksheet</a><br />
+			<p>What is the estimated five-year ongoing operations cost of your project or acquisition? <a class="aps-moreinfo" data-href="https://itconnect.uw.edu/wp-content/uploads/2017/02/ongoing-operations-cost.pdf" target="_blank">ongoing operations cost worksheet</a><br />
 			<div class="field">
 				<label for="system_life">Ongoing operations cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="system_life" id="system_life" required="required" />
@@ -155,7 +174,7 @@
 			
 			<h3>Will more than one department be affected by your project or acquisition?</h3>
 
-			<p>If your project your project or acquisition will affect multiple departments, please provide details in the box below. Otherwise, click "Doesn't Apply."</p>
+			<p>If your project or acquisition will affect multiple departments, please provide details in the box below. Otherwise, click "Doesn't Apply."</p>
 
 			<div class="field">
 				<textarea name="description" id="description" rows="7" cols="80" style="font-size: 0.9em;"></textarea>
@@ -169,7 +188,7 @@
 		<form class="aps-form" id="form-central" >
 			<h3>Does your project or acquisition require central administrative computing services or resources?</h3>
 
-			<p>If your project your project or acquisition requires use of central IT resources, please provide details in the box below. Otherwise, click "Doesn't Apply."</p>
+			<p>If your project or acquisition requires use of central IT resources, please provide details in the box below. Otherwise, click "Doesn't Apply."</p>
 
 			<div class="field">
 				<textarea name="description" id="description" rows="7" cols="80" style="font-size: 0.9em;"></textarea>
@@ -203,8 +222,8 @@
 
 	<div aria-label="slide" aria-hidden="true" class="slide medical" id="aps-med-a">
 		<h3>Requirements for this type of project cannot be determined using this application.</h3>
-		<p>Your project or acquisition is subject to a memorandum of understanding with the VP for UW-IT and CIO.</p>
-		<p>Please reach out to UW Medicine IT Services at <a href="mailto:projreq@uw.edu">projreq@uw.edu</a> to initiate the process.</a></p>
+		<p>Your project or acquisition is subject to a memorandum of understanding with the Vice President for UW-IT and Chief Information Officer.</p>
+		<p>Please contact UW Medicine IT Services at <a href="mailto:projreq@uw.edu">projreq@uw.edu</a> to initiate approval the process.</a></p>
 	</div><!-- Slide aca 1 -->
 
 	<!-- END MEDICAL SLIDES ***************************************************************************** -->
@@ -212,9 +231,9 @@
 
 	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-non-basics" data-aps-slide="basics" data-aps-input="true">
 
-		<h3>Let's start off with some basics</h3>
+		<h3>Let's start with some basics</h3>
 
-		<p>We'll need to know a little bit about your project or acquisition. In the fields below, please provide your name, department, a short title for your project or acquisition, and a brief, high-level description.</p>
+		<p>We'll need to know a little about your project or acquisition. In the fields below, please provide your name, department, a short title for your project or acquisition, and a brief, high-level description.</p>
 
 		<form class="aps-form" id="form-non-basics" >
 			<div class="field">
@@ -243,16 +262,16 @@
 	<div aria-label="slide" aria-hidden="true" class="slide non" id="aps-non-a" data-aps-slide="level">
 		<h3>Please complete the Risk and Severity calculator</h3>
 
-		<p>You'll need to complete a Risk and Severity Assessment using a calculator on the Washington State Office of the Chief Information Officer's (OCIO) web site. Clicking the button below will open a popup containing the calculator.</p>
+		<p>You'll need to complete a Risk and Severity Assessment using a calculator on the Washington State Office of the Chief Information Officer's (OCIO) web site. Click the button below to open a popup with the calculator.</p>
 
-		<p>Once you've finished the assessment, <span style="color: #4b2e83; font-weight: bold;">save or print</span> the results for use later, and select the appropriate level of oversight below.</p>
+		<p>Once you've finished the assessment, <span style="color: #4b2e83; font-weight: bold;">save or print</span> the results for use later. The calculator will provide a level of oversight; select the appropriate level below.</p>
 		<br />
 		<a href="javascript:void(0);" class="uw-btn cio-assessment">Take the assessment</a>
 		<br /><br />
-		<p>According to the calculator, what is the <b>overall project oversight level</b> required? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">How do I find this?</a></p>
+		<p>According to the calculator, what is the <b>level of project oversight</b> required? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">How do I find this?</a></p>
 
 		<!-- Popover lightbox content -->
-		<div class="hidden"><div id="more-cio" class="more-info">After completing the assessment on the State of Washington OCIO web site, results will be displayed on the screen. Near the top, you'll find the overall project oversight level. The location is highlighted in pink below.
+		<div class="hidden"><div id="more-cio" class="more-info">After completing the assessment on the State of Washington OCIO web site, results will be displayed on the screen. Near the top, you'll find the level of project oversight required. The location is highlighted in pink below.
 		<br /><br />
 		<img src="https://itconnect.uw.edu/wp-content/uploads/2016/09/cio-oversight-example.gif" width="500" height="283" alt="Example of CIO web site overall project oversight level location." />
 
@@ -268,7 +287,7 @@
 
 		<p>Projects or acquisitions with an <i>project cost</i> of <b>$1 million or more</b>, or with an estimated <i>five-year ongoing operations cost</i> of <b>$2.5 million or more</b>, are considered to have a high cost.</p>
 
-		<p>You can use the <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/project-investment-cost.pdf" target="_blank">project cost</a> and <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/ongoing-operations-cost.pdf" target="_blank">ongoing operations cost</a> worksheets to estimate the cost of your project or acquisition. 
+		<p>You can use the <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2017/02/project-investment-cost.pdf" target="_blank">project cost</a> and <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2017/02/ongoing-operations-cost.pdf" target="_blank">ongoing operations cost</a> worksheets to estimate the cost of your project or acquisition. 
 		
 		<a role="button" class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-non-d" href="javascript:void(0);">Yes</a><a role="button" class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-non-d" href="javascript:void(0);">No</a>
 		
@@ -278,14 +297,14 @@
 		
 		<form class="aps-form" id="form-cost" >
 			<h3>Provide some financial information about your project or acquisition:</h3>
-			<p>The financial information provided will help determine your required level of oversight. Use the linked worksheets if you are unsure of the costs.</p>
-			<p>What is the estimated project cost of your project or acquisition? <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2016/12/project-investment-cost.pdf" target="_blank">project cost worksheet</a><br />
+			<p>The financial information you provide will help determine your required level of oversight. Use the linked worksheets to calculate costs.</p>
+			<p>What is the estimated project cost of your project or acquisition? <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2017/02/project-investment-cost.pdf" target="_blank">project cost worksheet</a><br />
 			<div class="field">
 				<label for="initial_investment">Project cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="initial_investment" id="initial_investment" required>
 			</div>
 			</p>
-			<p>What is the estimated five-year ongoing operations cost of your project or acquisition? <a class="aps-moreinfo" data-fhref="https://itconnect.uw.edu/wp-content/uploads/2016/12/ongoing-operations-cost.pdf" target="_blank">ongoing operations cost worksheet</a><br />
+			<p>What is the estimated five-year ongoing operations cost of your project or acquisition? <a class="aps-moreinfo" data-fhref="https://itconnect.uw.edu/wp-content/uploads/2017/02/ongoing-operations-cost.pdf" target="_blank">ongoing operations cost worksheet</a><br />
 			<div class="field">
 				<label for="system_life">Ongoing operations cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="system_life" id="system_life" required="required" />
@@ -303,7 +322,7 @@
 		<form class="aps-form" id="form-multi" >
 			<h3>Will more than one department be affected by your project or acquisition?</h3>
 
-			<p>If your project your project or acquisition will affect multiple departments, please provide details in the box below.</p>
+			<p>If your project or acquisition will affect multiple departments, please provide details in the box below.</p>
 
 			<p>If no other departments will be affected, click "Doesn't Apply."</p>
 
@@ -321,7 +340,7 @@
 		<form class="aps-form" id="form-central" >
 			<h3>Will your project or acquisition use central administrative computing services or resources?</h3>
 
-			<p>If your project your project or acquisition will use central IT resources, please provide details in the box below.</p>
+			<p>If your project or acquisition will use central IT resources, please provide details in the box below.</p>
 
 			<p>If no central resources are required, click "Doesn't Apply."</p>
 
@@ -362,24 +381,24 @@
 		<div class="recap" id="aca-basics"></div>
 
 		<div class="recap" id="aca-1">
-			<h3>Here is a summary of your planned technology acquisition:</h3>
+			<h3>Below is a summary of your planned technology acquisition</h3>
 			<div class="basics-wrap"></div>
 			<ul>
 				<li>It is for an academic use in instruction, research, or other scholarly activity; it is not for administrative records or business operations use.</li>
 				<li>The project cost is less than $1 million and the ongoing operations cost costs will be less than $2.5 million.</li>
-				<li>No other departments will be using the system, nor do you need to use any central administrative computing services or resources.</li>
-				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website.</li>
+				<li>No other departments will be using the system, nor are any central administrative computing services or resources required.</li>
+				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the Risk and Severity Calculator on the State of Washington OCIO website.</li>
 			</ul>
 
 			<p>Your department is responsible for following all institutional procurement and <a href="/work/investment-procedure/stewardship-guidelines/" target="_blank">stewardship guidelines</a>, and for seeing that the project is successfully completed.</p>
 
-			<p>Your department is to maintain a record to document all of the above if it is requested in a future audit. You may print a copy of this information, or save a screenshot for the department record.</p>
+			<p>Your department is to maintain a record to document all of the above if it is requested in a future audit. You may print a copy of this information, or save a screenshot for your department record.</p>
 
 			<p style="color: #4b2e83; font-weight: bold;">Please save or print this page for your records.</p>
 		</div>
 
 		<div class="recap" id="aca-2">
-			<h3>Here is a summary of your planned technology acquisition:</h3>
+			<h3>Below is a summary of your planned technology acquisition:</h3>
 			<div class="basics-wrap"></div>
 			<ul>
 				<li>It is for an academic use in instruction, research, or other scholarly activity; it is not for administrative records or business operations use.</li>
@@ -390,7 +409,7 @@
 
 				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website.</li>
 			</ul>
-			<p>Prior approval is required for use of central administrative computing services or resources. Contact UW-IT at <a href="mailto:help@uw.edu?subject=APS 2.3 request">help@uw.edu</a> to ensure your requested needs can be addressed on the schedule you want to follow.</p>
+			<p>Prior approval is required for use of central administrative computing services or resources. Contact UW-IT at <a href="mailto:help@uw.edu?subject=APS 2.3 request">help@uw.edu</a> to ensure your requested needs can be addressed on schedule.</p>
 
 			<p>Your department is responsible for following all institutional procurement and <a href="/work/investment-procedure/stewardship-guidelines/" target="_blank">stewardship guidelines</a>, and for seeing that the project is successfully completed. This includes coordinating with the other departments as necessary to ensure satisfactory results.</p>
 
@@ -400,7 +419,7 @@
 		</div>
 
 		<div class="recap" id="aca-3">
-			<h3>Here is a summary of your planned technology acquisition:</h3>
+			<h3>Below is a summary of your planned technology acquisition:</h3>
 			<div class="basics-wrap"></div>
 			<ul>
 				<li>It is for an academic use in instruction, research, or other scholarly activity; it is not for administrative records or business operations use.</li>
@@ -411,7 +430,7 @@
 
 				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website.</li>			
 			</ul>
-			<p>Submit your recap of project costs and ongoing operations costs, along with level 1 oversight calculation, to UW-IT via <a href="mailto:help@uw.edu?subject=APS 2.3 request">help@uw.edu</a> for review and concurrence by the VP for UW-IT and CIO.</p>
+			<p>Submit project costs and ongoing operations costs, along with level 1 oversight calculation, to UW-IT via <a href="mailto:help@uw.edu?subject=APS 2.3 request">help@uw.edu</a> for review and concurrence by the Vice President for UW-IT and Chief Information Officer.</p>
 
 			<p>Your department is responsible for following all institutional procurement and <a href="/work/investment-procedure/stewardship-guidelines/" target="_blank">stewardship guidelines</a>, and for seeing that the project is successfully completed.</p>
 
@@ -421,7 +440,7 @@
 		</div>
 
 		<div class="recap" id="aca-4">
-			<h3>Here is a summary of your planned technology acquisition:</h3>
+			<h3>Below is a summary of your planned technology acquisition:</h3>
 			<div class="basics-wrap"></div>
 			<ul>
 				<li>It is for an academic use in instruction, research, or other scholarly activity; it is not for administrative records or business operations use.</li>
@@ -442,16 +461,14 @@
 		</div>
 
 		<div class="recap" id="aca-5">
-			<h3>The following summary and requirements apply to your project or acquisition:</h3>
+			<h3>The following summary and requirements apply to your project or acquisition</h3>
 
 			<div class="basics-wrap"></div>
 
 			<p>Your planned technology acquisition is for an academic use in instruction, research, or other scholarly activity; it is not for administrative records or business operations use.</p>
 
-			<h4>A summary of the information about your project</h4>
-
 			<ul>
-				<li>It has a <b>level <span id="recap-level"></span> oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website. Please print out that report and include it for review by UW-IT.</li>
+				<li>It has a <b>level <span id="recap-level"></span> oversight requirement</b>, as calculated using the Risk and Severity tools on the State of Washington OCIO website. Please print out that report and include it for review by UW-IT.</li>
 
 				<li><b>Total project cost:</b> $<span id="recap-investment"></span></li>
 
@@ -464,12 +481,12 @@
 				<li>It will take <b><span id="recap-duration"></span> months</b> to complete.</li>
 			</ul>
 
-			<p>UW-IT needs to work with you on additional information about your project, for review and approval by the VP for UW-IT and CIO.</p>
+			<p>UW-IT needs to work with you on additional information about your project. Review and approval by the Vice Presidnet for UW-IT and Chief Information Officer are required.</p>
 
-			<p>Please use the <a href="https://ocio.wa.gov/policy/appendix-c-technology-investmentproject-summaries-11210" target="_blank">Investment Plan Template</a>, being sure to include the above information, and the following:</p>
+			<p>Please use the <a href="https://ocio.wa.gov/policy/appendix-c-technology-investmentproject-summaries-11210" target="_blank">Investment Plan Template</a>. Include the summary above and the following information.</p>
 
 			<ul>
-				<li>Selection process if acquiring any components from vendors, such as software, hardware, services including both hosting and consulting;</li>
+				<li>Detail your selection process if you will be acquiring any components from vendors, such as software, hardware, services including both hosting and consulting</li>
 
 				<li>The anticipated project plan and schedule, including major milestone dates and deliverables</li>
 
@@ -484,7 +501,7 @@
 			<ul>
 				<li>Following all institutional procurement and <a href="/work/investment-procedure/stewardship-guidelines/" target="_blank">stewardship guidelines</a></li>
 				<li>Project progress reporting and management oversight</li>
-				<li>If the project will take more than 12 months, submitting quarterly progress reports to VP for UW-IT and CIO</li>
+				<li>Submitting quarterly progress reports to Vice President for UW-IT and Chief Information Officer, if the project will take more than 12 months</li>
 			</ul>
 
 			<p style="color: #4b2e83; font-weight: bold;">Please save or print this page for your records. You may need to submit a copy of this information to UW-IT.</p>
@@ -493,7 +510,7 @@
 
 	<!-- NON-EXEMPT RECAPS -->
 		<div class="recap" id="non-1">
-			<h3>Here is a summary of your planned technology acquisition:</h3>
+			<h3>Below is a summary of your planned technology acquisition:</h3>
 			<div class="basics-wrap"></div>
 			<ul>
 				<li>It is for administrative or business-related IT systems and applications that are not associated with UW Medicine</li>
@@ -553,7 +570,7 @@
 		</div>
 
 		<div class="recap" id="non-2">
-			<h3>Here is a summary of your planned technology acquisition:</h3>
+			<h3>Below is a summary of your planned technology acquisition</h3>
 			<div class="basics-wrap"></div>
 			<p>State of Washington law and policies of the State Chief Information Officer require certain reviews and approvals before any action can proceed, even when no state appropriations are to be used to fund the project.</p>
 			 
@@ -562,47 +579,47 @@
 			<h4>Stage 1 – Getting started and first steps</h4>
 			 
 			<ul>
-				<li>It is for administrative or business related IT systems and applications, and is not part of UW Medicine</li>
-				<li>project cost is <b>$<span id="recap-investment-non"></span></b> and five-year ongoing operations costs are <b>$<span id="recap-5yr-non"></span></b></li>
+				<li>It is for administrative- or business-elated IT systems and applications, and is not part of UW Medicine</li>
+				<li>project cost is <b>$<span id="recap-investment-non"></span></b> and five-year ongoing operations cost are <b>$<span id="recap-5yr-non"></span></b></li>
 				<li><span id="recap-multi-non-complex"></span></li>
 				<li><span id="recap-central-non-complex"></span></li>
-				<li>It has a <b>Level <span id="recap-level-non"></span> oversight</b> as calculated using risk and severity tools on State of Washington OCIO website</li>
+				<li>It has a <b>Level <span id="recap-level-non"></span> oversight</b> as calculated using Risk and Severity tools on State of Washington Office of the Chief Information Officer website</li>
 				<li>It will take <b><span id="recap-duration-non-complex"></span> months</b> to complete.</li>
 			</ul>
 			 
-			<p>Please draft a Concept Briefing Document, which is appendix B on the state of Washington's <a href="https://ocio.wa.gov/policies/121-it-investments-approval-and-oversight/121-procedures" target="_blank">OCIO IT Investments - Approval and Oversight website</a>.</p>
+			<p>Please draft a Concept Briefing Document, which is appendix B on the State of Washington's <a href="https://ocio.wa.gov/policies/121-it-investments-approval-and-oversight/121-procedures" target="_blank">OCIO IT Investments - Approval and Oversight website</a>.</p>
 			 
 			<p>Submit the draft Concept Briefing Document, a copy of your oversight level calculation report, and a copy of this Stage 1 summary information to UW-IT via <a href="mailto:help@uw.edu?subject=APS 2.3 request">help@uw.edu</a>.</p>
 
-			<p>UW-IT will contact you to set up a time to meet and discuss next steps.   When we have all required materials assembled and approved by VP for UW-IT and CIO, we will proceed to work with State of Washington OCIO for approval to move forward.  <b>NOTE:</b> No acquisitions may begin until we have state approval.</p>
+			<p>UW-IT will contact you to set up a time to meet and discuss next steps.   When we have all required materials assembled and approved by the Vice President for UW-IT and Chief Information Officer, we will proceed to work with the State of Washington OCIO for approval to move forward.  <b>NOTE:</b> No acquisitions may begin until we have the state's approval.</p>
 			 
-			<p>UW IT Strategy Board will be informed of the proposed project, and may request a presentation.</p>
+			<p>The UW IT Strategy Board will be informed of the proposed project, and rhw board may request a presentation.</p>
 			 
 
 			<h4>Stage 2 – Approval to proceed with acquisition</h4>
 			 
-			<p>After OCIO approves the Concept and related materials and gives an OK to proceed with acquisition steps, your department will work with Procurement for appropriate process (RFI, RFP, sole source).</p>
+			<p>After OCIO approves the Concept and related materials and gives an OK to proceed with acquisition steps, your department will work with UW-IT Procurement for appropriate process (RFI, RFP, sole source).</p>
 			 
-			<p>This is also the time to determine acquisition method for external Quality Assurance consulting services; note that State of Washington OCIO requests to be involved in that selection process, and encourages that project QA consultants conduct both readiness assessment and planning activities prior to selection of successful vendor and award of contracts.</p>
+			<p>You will need to determine the acquisition method for external quality assurance consulting services; The State of Washington OCIO requests that the office be involved in that selection process, and encourages QA consultants conduct both readiness assessment and planning activities prior to selection of successful vendor and award of contracts.</p>
 			 
-			<p>Draft an Investment Plan document based in large part on the Concept Briefing document&mdash;some sections will be blank (budget and schedule) until vendor proposals are received and an apparent successful vendor is identified.</p>
+			<p>Draft an Investment Plan document based in large part on the Concept Briefing Document. Some sections (budget and schedule) will be blank until vendor proposals are received and a successful vendor is identified.</p>
 			 
-			<p>State of Washington OCIO approval is required before UW may award contracts for the project.</p>
+			<p>State of Washington OCIO approval is required before UW decides to award a contract for the project.</p>
 			 
 			 
 			<h4>Stage 3 – Approval to launch project</h4>
 			 
-			<p>Complete evaluation and selection of apparent successful vendor(s).</p>
+			<p>Complete evaluation and selection of vendor(s).</p>
 			 
-			<p>Draft the complete Investment Plan document, with additional details (budget, schedule, risks and mitigation) as identified through procurement process. This must be approved by VP for UW-IT and CIO, who will request formal approval from state OCIO.</p>
+			<p>Draft the complete Investment Plan document and add additional details: budget, schedule, risks and mitigation. These are required by the procurement process. These must be approved by the Vice President for UW-IT and Chief Information Officer, who will request formal approval from the state's OCIO.</p>
 			 
-			<p>Depending on the size of the contracts and project project costs, UW Board of Regents approval may also be required.</p>
+			<p>Depending on the size of the contract and project cost, UW Board of Regents approval may also be required.</p>
 			 
 			<p>Develop a Project Plan and governance process for approval by VP for UW-IT and CIO</p>
 			 
 			<p>UW IT Strategy Board will be updated and overall project.</p>
 			 
-			<p>Begin regular project reporting, including posting to State of Washington OCIO website of monthly progress report and QA report.</p>
+			<p>Begin regular project reporting. Post monthly progress report and QA report to the State of Washington OCIO website.</p>
 
 			<p style="color: #4b2e83; font-weight: bold;">Please save or print this page for your records. You may need to submit a copy of this information to UW-IT.</p>
 		</div>

@@ -234,7 +234,7 @@
 					}
 
 					if (APS.storedData.values.central == 'none') {
-						$('#recap-central').text('Central compuring resources or services are not required.');
+						$('#recap-central').text('Central computing resources or services are not required.');
 					} else {
 						$('#recap-central').text(APS.storedData.values['form-central']['description']);
 					}
@@ -268,7 +268,7 @@
 					}
 
 					if (APS.storedData.values.central == 'none') {
-						$('#recap-central-non').text('Central compuring resources or services are not required.');
+						$('#recap-central-non').text('Central computing resources or services are not required.');
 					} else {
 						$('#recap-central-non').text(APS.storedData.values['form-central']['description']);
 						large = true;
@@ -299,7 +299,7 @@
 					}
 
 					if (APS.storedData.values.central == 'none') {
-						$('#recap-central-non-complex').text('Central compuring resources or services are not required.');
+						$('#recap-central-non-complex').text('Central computing resources or services are not required.');
 					} else {
 						$('#recap-central-non-complex').text('The project require central computing resources in the following way: ' + APS.storedData.values['form-central']['description']);
 						large = true;
