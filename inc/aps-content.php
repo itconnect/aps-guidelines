@@ -617,7 +617,7 @@
 			 
 			<p>Develop a Project Plan and governance process for approval by VP for UW-IT and CIO</p>
 			 
-			<p>UW IT Strategy Board will be updated and overall project.</p>
+			<p>UW IT Strategy Board will be regurally updated on the project's status.</p>
 			 
 			<p>Begin regular project reporting. Post monthly progress report and QA report to the State of Washington OCIO website.</p>
 
