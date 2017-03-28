@@ -156,7 +156,7 @@
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="initial_investment" id="initial_investment" required>
 			</div>
 			</p>
-			<p>What is the estimated five-year ongoing operations cost of your project or acquisition? <a class="aps-moreinfo" data-href="https://itconnect.uw.edu/wp-content/uploads/2017/02/ongoing-operations-cost.pdf" target="_blank">ongoing operations cost worksheet</a><br />
+			<p>What is the estimated five-year ongoing operations cost of your project or acquisition? <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2017/02/ongoing-operations-cost.pdf" target="_blank">ongoing operations cost worksheet</a><br />
 			<div class="field">
 				<label for="system_life">Ongoing operations cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="system_life" id="system_life" required="required" />
@@ -304,7 +304,7 @@
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="initial_investment" id="initial_investment" required>
 			</div>
 			</p>
-			<p>What is the estimated five-year ongoing operations cost of your project or acquisition? <a class="aps-moreinfo" data-href="https://itconnect.uw.edu/wp-content/uploads/2017/02/ongoing-operations-cost.pdf" target="_blank">ongoing operations cost worksheet</a><br />
+			<p>What is the estimated five-year ongoing operations cost of your project or acquisition? <a class="aps-moreinfo" href="https://itconnect.uw.edu/wp-content/uploads/2017/02/ongoing-operations-cost.pdf" target="_blank">ongoing operations cost worksheet</a><br />
 			<div class="field">
 				<label for="system_life">Ongoing operations cost:</label>
 				$<input type="number" placeholder="0" min="0" max="900000000" value="" name="system_life" id="system_life" required="required" />
