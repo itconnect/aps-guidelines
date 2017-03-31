@@ -14,7 +14,9 @@
 
 	<div aria-label="slide" aria-hidden="true" class="slide" id="aps-restart">
 		<h3>It appears you've previously started or completed this process.</h3>
-		<p>Would you like to start this process for a new project or acquisition, or continue from where you left off before? If you start over, all data stored in your browser's memory from previous projects will be permanently deleted.</p>
+		<p>Would you like to start this process for a new project or acquisition, or continue from where you left off before?
+			<br /><br />
+			If you start over, all data stored in your browser's memory from previous projects will be <b>permanently deleted</b>.</p>
 		<a role="button" class="uw-btn aps-restart" data-aps-restart="yes" href="javascript:void(0);">Start over</a><a role="button" class="uw-btn aps-restart" data-aps-restart="no" href="javascript:void(0);">Continue from where I left off</a>
 	</div><!-- Slide restart -->
 
