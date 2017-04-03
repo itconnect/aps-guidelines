@@ -244,6 +244,12 @@
 					this.compileBasics('form-aca-basics', 'aca-5');
 					$('#aca-5').show();
 				}
+				// Insert confidential data 
+				if (APS.storedData.values.confidential == true) {
+					$('#recap-multi').text('is');
+				} else {
+					$('#recap-multi').text('is not');
+				}
 			},
 			non: function() {
 				var level = APS.storedData.values.level;
