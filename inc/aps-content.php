@@ -7,7 +7,7 @@
 		<h2 class="splash title">University of Washington</h2>
 		<span class="splash tagline">Information Technology (IT) Project &amp; Acquisitions Procedure</span></h2>
 
-		<p>All University of Washington (UW) technology projects and acquisitions are governed by the UW's Policy on Information Technology, Telecommunications and Networking Projects and Acquisitions (abbreviated APS 2.3). Certain processes and approvals may be required, depending on the type and size of the technology expenditures you need to make.<br /><br />These web pages help you determine what approvals and other processes are required under APS 2.3.<br /><br /><b>Before you begin:</b> Contact your internal department administrator to determine how your department handles new IT projects.</p>
+		<p>All information technology (IT) projects and acquisitions at the University of Washington (UW) must comply with the UW’s policy governing how projects are reported and tracked and how money is spent, regardless of the funding source. This policy is outlined in the UW’s Administrative Policy Statement on Information Technology, Telecommunications and Networking Projects and Acquisitions (APS 2.3).<br /><br /> This tool is designed to help you determine what approvals and other processes are required by the policy, depending on your project’s cost, size and type.</p>
 
 		<a role="button" class="uw-btn aps-init" data-aps-goto="aps-1" href="javascript:void(0);">Let's Get Started</a>
 	</div><!-- Slide 0 -->
@@ -143,7 +143,7 @@
 
 		<p>Will more than one department be affected by your project or acquisition, or do you need to use any central administrative computing services or resources?</p>
 		
-		<a role="button" class="uw-btn aps-option" data-aps-value="true" data-aps-goto="recap" href="javascript:void(0);">Yes</a><a role="button" class="uw-btn aps-option" data-aps-value="false" data-aps-goto="recap" href="javascript:void(0);">No</a>
+		<a role="button" class="uw-btn aps-option" data-aps-value="true" data-aps-goto="aps-aca-i" href="javascript:void(0);">Yes</a><a role="button" class="uw-btn aps-option" data-aps-value="false" data-aps-goto="aps-aca-i" href="javascript:void(0);">No</a>
 
 	</div><!-- Slide aca d -->
 
@@ -215,7 +215,17 @@
 				</select>
 			</div>
 			<br />
-			<a role="button" class="uw-btn aps-option" data-aps-goto="recap" href="javascript:void(0);">Submit</a>
+			<a role="button" class="uw-btn aps-option" data-aps-goto="aps-aca-i" href="javascript:void(0);">Submit</a>
+		</form>
+	</div><!-- Slide aca h -->
+
+	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-aca-i" data-aps-slide="central" data-aps-input="true">
+		<form class="aps-form" id="form-central" >
+			<h3>Does your project or acquisition use any confidential data?</h3>
+
+			<p>Examples of confidential data includ sales &amp; credit card information, personal information, information protected under FREPA or HIPPA, etc.</p>
+			
+			<a role="button" class="uw-btn aps-option" data-aps-value="true" data-aps-goto="recap" href="javascript:void(0);">Yes</a><a role="button" class="uw-btn aps-option" data-aps-value="false" data-aps-goto="recap" href="javascript:void(0);">No</a>
 		</form>
 	</div><!-- Slide aca h -->
 
