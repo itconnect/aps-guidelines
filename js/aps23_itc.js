@@ -246,9 +246,9 @@
 				}
 				// Insert confidential data 
 				if (APS.storedData.values.confidential == true) {
-					$('#recap-multi').text('is');
+					$('#recap-confidential').text('is');
 				} else {
-					$('#recap-multi').text('is not');
+					$('#recap-confidential').text('is not');
 				}
 			},
 			non: function() {
