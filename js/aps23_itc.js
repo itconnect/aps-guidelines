@@ -245,10 +245,14 @@
 					$('#aca-5').show();
 				}
 				// Insert confidential data 
-				if (APS.storedData.values.confidential == true) {
-					$('#recap-confidential').text('is');
+				if (APS.storedData.values['confidential'] == true) {
+					$('#recap-confidential').each(function(){
+						$(this).text('is');
+					});
 				} else {
-					$('#recap-confidential').text('is not');
+					$('#recap-confidential').each(function(){
+						$(this).text('is not');
+					});
 				}
 			},
 			non: function() {
