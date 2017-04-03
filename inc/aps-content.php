@@ -219,11 +219,16 @@
 		</form>
 	</div><!-- Slide aca h -->
 
-	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-aca-i" data-aps-slide="central" data-aps-input="true">
+	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-aca-i" data-aps-slide="confidential" data-aps-input="true">
 		<form class="aps-form" id="form-central" >
 			<h3>Does your project or acquisition use any confidential data?</h3>
 
-			<p>Examples of confidential data includ sales &amp; credit card information, personal information, information protected under FREPA or HIPPA, etc.</p>
+			<p>Confidential data include things like:</p>
+			<ul>
+				<li>Sales &amp; credit card information</li>
+				<li>Personal information
+				<li>Information protected under FREPA or HIPPA</li>
+			</ul>
 			
 			<a role="button" class="uw-btn aps-option" data-aps-value="true" data-aps-goto="recap" href="javascript:void(0);">Yes</a><a role="button" class="uw-btn aps-option" data-aps-value="false" data-aps-goto="recap" href="javascript:void(0);">No</a>
 		</form>
