@@ -425,6 +425,8 @@
 
 				<li>Other departments will be using the system, or you require the use of central administrative computing services or resources.</li>
 
+				<li>Confidential data <span id="recap-confidential"></span> used by your project or acquisition.</li>
+
 				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website.</li>
 			</ul>
 			<p>Prior approval is required for use of central administrative computing services or resources. Contact UW-IT at <a href="mailto:help@uw.edu?subject=APS 2.3 request">help@uw.edu</a> to ensure your requested needs can be addressed on schedule.</p>
@@ -446,6 +448,8 @@
 
 				<li>No other departments will be using the system, nor do you need to use any central administrative computing services or resources.</li>
 
+				<li>Confidential data <span id="recap-confidential"></span> used by your project or acquisition.</li>
+
 				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website.</li>			
 			</ul>
 			<p>Submit project costs and ongoing operations costs, along with level 1 oversight calculation, to UW-IT via <a href="mailto:help@uw.edu?subject=APS 2.3 request">help@uw.edu</a> for review and concurrence by the Vice President for UW-IT and Chief Information Officer.</p>
@@ -466,6 +470,8 @@
 				<li>The project cost is greater than $1 million, the ongoing operations costs will be greater than $2.5 million, or both.</li>
 
 				<li>Other departments will be using the system, or you require the use of central administrative computing services or resources.</li>
+
+				<li>Confidential data <span id="recap-confidential"></span> used by your project or acquisition.</li>
 
 				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website.</li>
 			</ul>
@@ -497,6 +503,8 @@
 				<li>The project require central computing resources in the following way:<div id="recap-central"></div></li>
 
 				<li>It will take <b><span id="recap-duration"></span> months</b> to complete.</li>
+
+				<li>Confidential data <span id="recap-confidential"></span> used by your project or acquisition.</li>
 			</ul>
 
 			<p>UW-IT needs to work with you on additional information about your project. Review and approval by the Vice Presidnet for UW-IT and Chief Information Officer are required.</p>
