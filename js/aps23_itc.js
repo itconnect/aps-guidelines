@@ -246,11 +246,11 @@
 				}
 				// Insert confidential data 
 				if (APS.storedData.values['confidential'] == true) {
-					$('#recap-confidential').each(function(){
+					$('.recap-confidential').each(function(){
 						$(this).text('is');
 					});
 				} else {
-					$('#recap-confidential').each(function(){
+					$('.recap-confidential').each(function(){
 						$(this).text('is not');
 					});
 				}
