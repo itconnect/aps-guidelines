@@ -219,19 +219,17 @@
 		</form>
 	</div><!-- Slide aca h -->
 
-	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-aca-i" data-aps-slide="confidential" data-aps-input="true">
-		<form class="aps-form" id="form-central" >
-			<h3>Does your project or acquisition use any confidential data?</h3>
+	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-aca-i" data-aps-slide="confidential">
+		<h3>Does your project or acquisition use any confidential data?</h3>
 
-			<p>Confidential data include things like:</p>
-			<ul>
-				<li>Sales &amp; credit card information</li>
-				<li>Personal information
-				<li>Information protected under FREPA or HIPPA</li>
-			</ul>
-			
-			<a role="button" class="uw-btn aps-option" data-aps-value="true" data-aps-goto="recap" href="javascript:void(0);">Yes</a><a role="button" class="uw-btn aps-option" data-aps-value="false" data-aps-goto="recap" href="javascript:void(0);">No</a>
-		</form>
+		<p>Confidential data include things like:</p>
+		<ul>
+			<li>Sales &amp; credit card information</li>
+			<li>Personal information
+			<li>Information protected under FERPA or HIPAA</li>
+		</ul>
+		
+		<a role="button" class="uw-btn aps-option" data-aps-value="true" data-aps-goto="recap" href="javascript:void(0);">Yes</a><a role="button" class="uw-btn aps-option" data-aps-value="false" data-aps-goto="recap" href="javascript:void(0);">No</a>
 	</div><!-- Slide aca h -->
 
 	<!-- END ACADEMIC SLIDES **************************************************************************** -->
@@ -385,9 +383,22 @@
 				</select>
 			</div>
 			<br />
-			<a role="button" class="uw-btn aps-option" data-aps-goto="recap" href="javascript:void(0);">Submit</a>
+			<a role="button" class="uw-btn aps-option" data-aps-goto="aps-non-g" href="javascript:void(0);">Submit</a>
 		</form>
 	</div><!-- Slide non f-->
+
+	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-non-g" data-aps-slide="confidential">
+		<h3>Does your project or acquisition use any confidential data?</h3>
+
+		<p>Confidential data include things like:</p>
+		<ul>
+			<li>Sales &amp; credit card information</li>
+			<li>Personal information
+			<li>Information protected under FERPA or HIPAA</li>
+		</ul>
+		
+		<a role="button" class="uw-btn aps-option" data-aps-value="true" data-aps-goto="recap" href="javascript:void(0);">Yes</a><a role="button" class="uw-btn aps-option" data-aps-value="false" data-aps-goto="recap" href="javascript:void(0);">No</a>
+	</div><!-- Slide aca h -->
 
 	<!-- END NON-EXEMPT SLIDES ***************************************************************************-->
 	<!-- RECAP SLIDES ************************************************************************************ -->
@@ -553,6 +564,8 @@
 				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website.</li>
 
 				<li>It will take <b><span id="recap-duration-non"></span> months</b> to complete.</li>
+
+				<li>Confidential data <span class="recap-confidential"></span> used by your project or acquisition.</li>
 			</ul>
 
 			<div id="recap-non-short">
@@ -611,6 +624,7 @@
 				<li><span id="recap-central-non-complex"></span></li>
 				<li>It has a <b>Level <span id="recap-level-non"></span> oversight</b> as calculated using Risk and Severity tools on State of Washington Office of the Chief Information Officer website</li>
 				<li>It will take <b><span id="recap-duration-non-complex"></span> months</b> to complete.</li>
+				<li>Confidential data <span class="recap-confidential"></span> used by your project or acquisition.</li>
 			</ul>
 			 
 			<p>Please draft a Concept Briefing Document, which is appendix B on the State of Washington's <a href="https://ocio.wa.gov/policies/121-it-investments-approval-and-oversight/121-procedures" target="_blank">OCIO IT Investments - Approval and Oversight website</a>.</p>

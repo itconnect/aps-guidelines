@@ -244,7 +244,7 @@
 					this.compileBasics('form-aca-basics', 'aca-5');
 					$('#aca-5').show();
 				}
-				// Insert confidential data 
+				// Do in all cases 
 				if (APS.storedData.values['confidential'] == true) {
 					$('.recap-confidential').each(function(){
 						$(this).text('is');
@@ -318,6 +318,16 @@
 					$('#recap-duration-non-complex').text(APS.storedData.values['form-duration']['duration']);
 					this.compileBasics('form-non-basics', 'non-2');
 					$('#non-2').show();
+				}
+				// Do in all cases
+				if (APS.storedData.values['confidential'] == true) {
+					$('.recap-confidential').each(function(){
+						$(this).text('is');
+					});
+				} else {
+					$('.recap-confidential').each(function(){
+						$(this).text('is not');
+					});
 				}
 			},
 			compileBasics: function(which, loc) {
