@@ -415,7 +415,7 @@
 				<li>It is for an academic use in instruction, research, or other scholarly activity; it is not for administrative records or business operations use.</li>
 				<li>The project cost is less than $1 million and the ongoing operations cost costs will be less than $2.5 million.</li>
 				<li>No other departments will be using the system, nor are any central administrative computing services or resources required.</li>
-				<li>Confidential data <span class="recap-confidential"></span> used by your project or acquisition.</li>
+				<li><span class="recap-confidential"></span></li>
 				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the Risk and Severity Calculator on the State of Washington OCIO website.</li>
 			</ul>
 
@@ -436,7 +436,7 @@
 
 				<li>Other departments will be using the system, or you require the use of central administrative computing services or resources.</li>
 
-				<li>Confidential data <span class="recap-confidential"></span> used by your project or acquisition.</li>
+				<li><span class="recap-confidential"></span></li>
 
 				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website.</li>
 			</ul>
@@ -459,7 +459,7 @@
 
 				<li>No other departments will be using the system, nor do you need to use any central administrative computing services or resources.</li>
 
-				<li>Confidential data <span class="recap-confidential"></span> used by your project or acquisition.</li>
+				<li><span class="recap-confidential"></span></li>
 
 				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website.</li>			
 			</ul>
@@ -482,7 +482,7 @@
 
 				<li>Other departments will be using the system, or you require the use of central administrative computing services or resources.</li>
 
-				<li>Confidential data <span class="recap-confidential"></span> used by your project or acquisition.</li>
+				<li><span class="recap-confidential"></span></li>
 
 				<li>It has a <b>level 1 oversight requirement</b>, as calculated using the risk and severity tools on the State of Washington OCIO website.</li>
 			</ul>
@@ -515,7 +515,7 @@
 
 				<li>It will take <b><span id="recap-duration"></span> months</b> to complete.</li>
 
-				<li>Confidential data <span class="recap-confidential"></span> used by your project or acquisition.</li>
+				<li><span class="recap-confidential"></span></li>
 			</ul>
 
 			<p>UW-IT needs to work with you on additional information about your project. Review and approval by the Vice Presidnet for UW-IT and Chief Information Officer are required.</p>
@@ -565,7 +565,7 @@
 
 				<li>It will take <b><span id="recap-duration-non"></span> months</b> to complete.</li>
 
-				<li>Confidential data <span class="recap-confidential"></span> used by your project or acquisition.</li>
+				<li><span class="recap-confidential"></span></li>
 			</ul>
 
 			<div id="recap-non-short">
@@ -624,7 +624,7 @@
 				<li><span id="recap-central-non-complex"></span></li>
 				<li>It has a <b>Level <span id="recap-level-non"></span> oversight</b> as calculated using Risk and Severity tools on State of Washington Office of the Chief Information Officer website</li>
 				<li>It will take <b><span id="recap-duration-non-complex"></span> months</b> to complete.</li>
-				<li>Confidential data <span class="recap-confidential"></span> used by your project or acquisition.</li>
+				<li><span class="recap-confidential"></span></li>
 			</ul>
 			 
 			<p>Please draft a Concept Briefing Document, which is appendix B on the State of Washington's <a href="https://ocio.wa.gov/policies/121-it-investments-approval-and-oversight/121-procedures" target="_blank">OCIO IT Investments - Approval and Oversight website</a>.</p>

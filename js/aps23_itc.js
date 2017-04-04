@@ -244,14 +244,14 @@
 					this.compileBasics('form-aca-basics', 'aca-5');
 					$('#aca-5').show();
 				}
-				// Do in all cases 
+				// Do in all cases
 				if (APS.storedData.values['confidential'] == true) {
 					$('.recap-confidential').each(function(){
-						$(this).text('is');
+						$(this).text('Confidential data is used by your project or acquisition.  Please contact CISO for their review.');
 					});
 				} else {
 					$('.recap-confidential').each(function(){
-						$(this).text('is not');
+						$(this).text('Confidential data is not used by your project or acquisition.');
 					});
 				}
 			},
@@ -322,11 +322,11 @@
 				// Do in all cases
 				if (APS.storedData.values['confidential'] == true) {
 					$('.recap-confidential').each(function(){
-						$(this).text('is');
+						$(this).text('Confidential data is used by your project or acquisition.  Please contact CISO for their review.');
 					});
 				} else {
 					$('.recap-confidential').each(function(){
-						$(this).text('is not');
+						$(this).text('Confidential data is not used by your project or acquisition.');
 					});
 				}
 			},
