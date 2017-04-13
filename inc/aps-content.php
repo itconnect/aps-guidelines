@@ -98,7 +98,7 @@
 				<textarea name="description" id="description" rows="5" cols="80" style="font-size: 0.9em;"></textarea>
 			</div>
 			<div class="field">
-				<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-aca-b" href="javascript:void(0);">Submit</a>
+				<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-aca-b" href="javascript:void(0);">Next</a>
 			</div>
 		</form>
 
@@ -165,7 +165,7 @@
 			</div>
 			</p>
 			<div class="field">
-				<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-aca-f" href="javascript:void(0);">Submit</a>
+				<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-aca-f" href="javascript:void(0);">Next</a>
 			</div>
 		</form>
 
@@ -182,7 +182,7 @@
 				<textarea name="description" id="description" rows="7" cols="80" style="font-size: 0.9em;"></textarea>
 			</div>
 			
-			<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-aca-g" href="javascript:void(0);">Submit</a><a role="button" class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-aca-g" href="javascript:void(0);">Doesn't apply</a>
+			<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-aca-g" href="javascript:void(0);">Next</a><a role="button" class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-aca-g" href="javascript:void(0);">Doesn't apply</a>
 		</form>
 	</div><!-- Slide aca f -->
 
@@ -196,7 +196,7 @@
 				<textarea name="description" id="description" rows="7" cols="80" style="font-size: 0.9em;"></textarea>
 			</div>
 			
-			<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-aca-h" href="javascript:void(0);">Submit</a><a role="button" class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-aca-h" href="javascript:void(0);">Doesn't apply</a>
+			<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-aca-h" href="javascript:void(0);">Next</a><a role="button" class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-aca-h" href="javascript:void(0);">Doesn't apply</a>
 		</form>
 	</div><!-- Slide aca g -->
 
@@ -215,7 +215,7 @@
 				</select>
 			</div>
 			<br />
-			<a role="button" class="uw-btn aps-option" data-aps-goto="aps-aca-i" href="javascript:void(0);">Submit</a>
+			<a role="button" class="uw-btn aps-option" data-aps-goto="aps-aca-i" href="javascript:void(0);">Next</a>
 		</form>
 	</div><!-- Slide aca h -->
 
@@ -268,7 +268,7 @@
 				<textarea name="description" id="description" rows="5" cols="80" style="font-size: 0.9em;"></textarea>
 			</div>
 			<div class="field">
-				<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-non-a" href="javascript:void(0);">Submit</a>
+				<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-non-a" href="javascript:void(0);">Next</a>
 			</div>
 		</form>
 
@@ -326,7 +326,7 @@
 			</div>
 			</p>
 			<div class="field">
-				<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-non-d" href="javascript:void(0);">Submit</a>
+				<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-non-d" href="javascript:void(0);">Next</a>
 			</div>
 		</form>
 
@@ -345,7 +345,7 @@
 				<textarea name="description" id="description" rows="7" cols="80" style="font-size: 0.9em;"></textarea>
 			</div>
 			
-			<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-non-e" href="javascript:void(0);">Submit</a><a role="button" class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-non-e" href="javascript:void(0);">Doesn't apply</a>
+			<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-non-e" href="javascript:void(0);">Next</a><a role="button" class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-non-e" href="javascript:void(0);">Doesn't apply</a>
 		</form>
 		
 	</div><!-- Slide non d -->
@@ -363,7 +363,7 @@
 				<textarea name="description" id="description" rows="7" cols="80" style="font-size: 0.9em;"></textarea>
 			</div>
 			
-			<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-non-f" href="javascript:void(0);">Submit</a><a role="button" class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-non-f" href="javascript:void(0);">Doesn't apply</a>
+			<a role="button" class="uw-btn aps-option required" data-aps-goto="aps-non-f" href="javascript:void(0);">Next</a><a role="button" class="uw-btn aps-option" data-aps-value="none" data-aps-goto="aps-non-f" href="javascript:void(0);">Doesn't apply</a>
 		</form>
 		
 	</div><!-- Slide non e -->
@@ -383,7 +383,7 @@
 				</select>
 			</div>
 			<br />
-			<a role="button" class="uw-btn aps-option" data-aps-goto="aps-non-g" href="javascript:void(0);">Submit</a>
+			<a role="button" class="uw-btn aps-option" data-aps-goto="aps-non-g" href="javascript:void(0);">Next</a>
 		</form>
 	</div><!-- Slide non f-->
 
