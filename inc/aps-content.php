@@ -619,7 +619,7 @@
 			 
 			<ul>
 				<li>It is for administrative- or business-elated IT systems and applications, and is not part of UW Medicine</li>
-				<li>project cost is <b>$<span id="recap-investment-non"></span></b> and five-year ongoing operations cost are <b>$<span id="recap-5yr-non"></span></b></li>
+				<li>The project cost is <b>$<span id="recap-investment-non"></span></b> and the five-year ongoing operations cost is <b>$<span id="recap-5yr-non"></span></b></li>
 				<li><span id="recap-multi-non-complex"></span></li>
 				<li><span id="recap-central-non-complex"></span></li>
 				<li>It has a <b>Level <span id="recap-level-non"></span> oversight</b> as calculated using Risk and Severity tools on State of Washington Office of the Chief Information Officer website</li>
