@@ -90,7 +90,7 @@
 			$('.cio-assessment').each(function(){
 				$(this).click(function(event){
 					event.preventDefault();
-					window.open('https://ocio.wa.gov/risk-severity-calculator#main-content','cio','width=900,height=750,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');
+					window.open('https://goo.gl/forms/B3aUFfDELHZPq9hW2','cio','width=900,height=750,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');
 					return false;
 				});
 			});

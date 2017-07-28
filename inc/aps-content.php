@@ -123,7 +123,7 @@
 		</div></div>
 		<!-- End popover -->
 
-		<a role="button" class="uw-btn aps-option" data-aps-value="1" data-aps-goto="aps-aca-c" href="javascript:void(0);">Level 1</a><a role="button" class="uw-btn aps-option" data-aps-value="2" data-aps-goto="aps-aca-e" href="javascript:void(0);">Level 2</a><a role="button" class="uw-btn aps-option" data-aps-value="3" data-aps-goto="aps-aca-e" href="javascript:void(0);">Level 3</a>
+		<a role="button" class="uw-btn aps-option" data-aps-value="1" data-aps-goto="aps-aca-c" href="javascript:void(0);">30 or less</a><a role="button" class="uw-btn aps-option" data-aps-value="2" data-aps-goto="aps-aca-e" href="javascript:void(0);">31 to 44</a><a role="button" class="uw-btn aps-option" data-aps-value="3" data-aps-goto="aps-aca-e" href="javascript:void(0);">45 and up</a>
 
 	</div><!-- Slide aca b -->
 
@@ -293,7 +293,7 @@
 		</div></div>
 		<!-- End popover -->
 
-		<a role="button" class="uw-btn aps-option" data-aps-value="1" data-aps-goto="aps-non-b" href="javascript:void(0);">Level 1</a><a role="button" class="uw-btn aps-option" data-aps-value="2" data-aps-goto="aps-non-c" href="javascript:void(0);">Level 2</a><a role="button" class="uw-btn aps-option" data-aps-value="3" data-aps-goto="aps-non-c" href="javascript:void(0);">Level 3</a>
+		<a role="button" class="uw-btn aps-option" data-aps-value="1" data-aps-goto="aps-non-b" href="javascript:void(0);">30 or less</a><a role="button" class="uw-btn aps-option" data-aps-value="2" data-aps-goto="aps-non-c" href="javascript:void(0);">31 to 44</a><a role="button" class="uw-btn aps-option" data-aps-value="3" data-aps-goto="aps-non-c" href="javascript:void(0);">45 and up</a>
 	</div><!-- Slide non a -->
 
 	<div aria-label="slide" aria-hidden="true" class="slide non" id="aps-non-b" data-aps-slide="highcost">
