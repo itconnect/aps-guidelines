@@ -105,11 +105,11 @@
 	</div><!-- Slide aca basics -->
 
 	<div aria-label="slide" aria-hidden="true" class="slide academic" id="aps-aca-b" data-aps-slide="level">
-		<h3>Please complete the Risk and Severity Assessment</h3>
+		<h3>Please complete the following form.</h3>
 
-		<p>You'll need to complete a Risk and Severity Assessment using a calculator on the Washington State Office of the Chief Information Officer's (OCIO) web site. Click the button below to open a popup with the calculator.</p>
+		<p>You'll need to complete a Risk and Severity Assessment using a google form from the Office of the Vice President of UW-IT and CIO. Click the button below to open a popup with the form.</p>
 
-		<p>Once you've finished the assessment, <span style="color: #4b2e83; font-weight: bold;">save or print</span> the results for use later. The calculator will provide a level of oversight; select the appropriate level below.</p>
+		<p>After you complete the form, a representative from the Office of the Vice President for UW-IT will contact you with which option to select to proceed.</p>
 		<br />
 		<a href="javascript:void(0);" class="uw-btn cio-assessment">Take the assessment</a>
 		<br /><br />
@@ -275,11 +275,11 @@
 	</div><!-- Slide aca basics -->
 
 	<div aria-label="slide" aria-hidden="true" class="slide non" id="aps-non-a" data-aps-slide="level">
-		<h3>Please complete the Risk and Severity calculator</h3>
+		<h3>Please complete the following form.</h3>
 
-		<p>You'll need to complete a Risk and Severity Assessment using a calculator on the Washington State Office of the Chief Information Officer's (OCIO) web site. Click the button below to open a popup with the calculator.</p>
+		<p>You'll need to complete a Risk and Severity Assessment using a google form from the Office of the Vice President of UW-IT and CIO. Click the button below to open a popup with the form.</p>
 
-		<p>Once you've finished the assessment, <span style="color: #4b2e83; font-weight: bold;">save or print</span> the results for use later. The calculator will provide a level of oversight; select the appropriate level below.</p>
+		<p>After you complete the form, a representative from the Office of the Vice President for UW-IT will contact you with which option to select to proceed.</p>
 		<br />
 		<a href="javascript:void(0);" class="uw-btn cio-assessment">Take the assessment</a>
 		<br /><br />
