@@ -113,7 +113,7 @@
 		<br />
 		<a href="javascript:void(0);" class="uw-btn cio-assessment">Take the assessment</a>
 		<br /><br />
-		<p>According to the calculator, what is the <b>olevel of project oversight</b> required? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">How do I find this?</a></p>
+		<p>According to the calculator, what is the <b>oversight score</b> required? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">How do I find this?</a></p>
 
 		<!-- Popover lightbox content -->
 		<div class="hidden"><div id="more-cio" class="more-info">After completing the assessment on the WA CIO website, results will be displayed on the screen. Near the top, you'll find the level of project oversight required. The location is highlighted in pink below.
@@ -283,7 +283,7 @@
 		<br />
 		<a href="javascript:void(0);" class="uw-btn cio-assessment">Take the assessment</a>
 		<br /><br />
-		<p>According to the calculator, what is the <b>level of project oversight</b> required? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">How do I find this?</a></p>
+		<p>According to the calculator, what is the <b>oversight score</b> required? <a class="aps-moreinfo" data-featherlight="#more-cio" href="#">How do I find this?</a></p>
 
 		<!-- Popover lightbox content -->
 		<div class="hidden"><div id="more-cio" class="more-info">After completing the assessment on the State of Washington OCIO web site, results will be displayed on the screen. Near the top, you'll find the level of project oversight required. The location is highlighted in pink below.
