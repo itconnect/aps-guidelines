@@ -30,7 +30,9 @@ class Aps_Widget
     {
         $this->addScript = true;
 
+        ob_start();
         require( plugin_dir_path( __FILE__ ) . 'inc/aps-content.php');
+        return ob_get_clean();
         
     }
 
@@ -42,9 +44,9 @@ class Aps_Widget
         }
 
         wp_register_script('aps23_js', plugin_dir_url(__FILE__) . 'js/aps23_itc.js', array('jquery'), '1.0', true);
-      wp_enqueue_script('aps23_js');
+        wp_enqueue_script('aps23_js');
 
-      wp_register_style('aps23_css', plugin_dir_url(__FILE__) . 'css/aps23_itc.css');
-      wp_enqueue_style('aps23_css');
+        wp_register_style('aps23_css', plugin_dir_url(__FILE__) . 'css/aps23_itc.css');
+        wp_enqueue_style('aps23_css');
     }
 }
